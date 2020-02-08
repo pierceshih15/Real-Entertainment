@@ -8,8 +8,8 @@
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
 
@@ -18,23 +18,370 @@
     <title>Real-Entertainment</title>
   </head>
   <body>
-    <h1>HomePage</h1>
+    <!-- #Header -->
+    <div id="header">
+      <div class="hero-image img-responsive">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+          <a class="navbar-brand" href="/index.html">
+            <div class="header-logo">
+              <img
+                src="assets/logo-2.svg"
+                class="d-inline-block align-top img-fluid"
+                alt="LOGO"
+              />
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- 選單內容 -->
+          <div
+            class="menu-content collapse navbar-collapse"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="/about.html"
+                >About<span class="sr-only">(current)</span></a
+              >
+              <a class="nav-item nav-link" href="/projects.html">Project</a>
+              <a class="nav-item nav-link" href="#footer">Contact</a>
+            </div>
+          </div>
+        </nav>
+        <div class="header-side-bg">
+          <div class="header-side-image"></div>
+        </div>
+      </div>
+      <div class="header-text">
+        <p>
+          Real Entertainment is an international company that focuses on film
+          production and digital marketing. The company started in San Francisco
+          and eventually moved to Taiwan 6 years and have since focused on
+          working with clients all over Asia.
+        </p>
+      </div>
+    </div>
+
+    <!-- WHO WE ARE -->
+    <div id="section1">
+      <div class="logo-backgroundImage">
+        <div class="logo-mobile"></div>
+      </div>
+      <div class="logo-bg">
+        <div class="logo"></div>
+      </div>
+      <div class="team-intro">
+        <h1 class="team-intro-title">WHO</h1>
+        <h1 class="team-intro-title">WE ARE</h1>
+        <p class="team-intro-content">
+          We are a group of young creatives who have interweaved the digital
+          marketing aspect into our content and services we provide for our
+          clients.
+        </p>
+        <div class="button-seeMore">
+          <a href="/about.html">
+            <p class="text-light">See more ==></p>
+          </a>
+        </div>
+        <div style="clear:both"></div>
+      </div>
+    </div>
+
+    <!-- OUR TEAM -->
+    <div id="section2">
+      <div class="section2-mobile">
+        <div class="title">
+          <h1>OUR</h1>
+          <h1>TEAM</h1>
+        </div>
+
+        <div class="section2-content container">
+          <div class="row mx-0">
+            <div class="team-mb col-6 px-0">
+              <div class="team-mb-photo"></div>
+              <div class="team-mb-intro">
+                <span class="team-mb-name">James Z. Feng</span>
+                <span class="team-mb-title">Director</span>
+              </div>
+            </div>
+            <div class="team-mb col-6 px-0">
+              <div class="team-mb-photo"></div>
+              <div class="team-mb-intro">
+                <span class="team-mb-name">Libby Chiu</span>
+                <span class="team-mb-title">Project Manager</span>
+              </div>
+            </div>
+            <div class="team-mb col-6 px-0">
+              <div class="team-mb-photo"></div>
+              <div class="team-mb-intro">
+                <span class="team-mb-name">Awill Wang</span>
+                <span class="team-mb-title">Graphic Designer</span>
+              </div>
+            </div>
+            <div class="team-mb col-6 px-0">
+              <div class="team-mb-photo"></div>
+              <div class="team-mb-intro">
+                <span class="team-mb-name">Sofa Chen</span>
+                <span class="team-mb-title">Post-production supervisor</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section2-tablet">
+        <div class="container">
+          <div class="row">
+            <div class="col-8">
+              <div class="row team-mb">
+                <div class="col-6">
+                  <div class="team-mb-photo"></div>
+                  <div class="team-mb-intro">
+                    <span class="team-mb-name">James Z. Feng</span>
+                    <span class="team-mb-title">Director</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="team-mb-photo"></div>
+                  <div class="team-mb-intro">
+                    <span class="team-mb-name">Libby Chiu</span>
+                    <span class="team-mb-title">Project Manager</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row team-mb">
+                <div class="col-6">
+                  <div class="team-mb-photo"></div>
+                  <div class="team-mb-intro">
+                    <span class="team-mb-name">Awill Wang</span>
+                    <span class="team-mb-title">Graphic Designer</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="team-mb-photo"></div>
+                  <div class="team-mb-intro">
+                    <span class="team-mb-name">Sofa Chen</span>
+                    <span class="team-mb-title"
+                      >Post-production supervisor</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="title">
+                <h1>OUR</h1>
+                <h1>TEAM</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section2-desktop">
+        <div class="container">
+          <div class="row">
+            <div class="team-mb col-3">
+              <div class="team-mb-photo"></div>
+              <div class="team-mb-intro">
+                <span class="team-mb-name">James Z. Feng</span>
+                <span class="team-mb-title">Director</span>
+              </div>
+            </div>
+            <div class="team-mb col-3">
+              <div class="team-mb-photo"></div>
+              <div class="team-mb-intro">
+                <span class="team-mb-name">Libby Chiu</span>
+                <span class="team-mb-title">Project Manager</span>
+              </div>
+            </div>
+            <div class="team-mb col-3">
+              <div class="team-mb-photo"></div>
+              <div class="team-mb-intro">
+                <span class="team-mb-name">Awill Wang</span>
+                <span class="team-mb-title">Graphic Designer</span>
+              </div>
+            </div>
+            <div class="team-mb col-3">
+              <div class="team-mb-photo"></div>
+              <div class="team-mb-intro">
+                <span class="team-mb-name">Sofa Chen</span>
+                <span class="team-mb-title">Post-production supervisor</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div id="section3">
+      <div class="section3-mobileTablet">
+        <div class="title">
+          <h1>PROJECT</h1>
+        </div>
+
+        <div class="button-viewAll">
+          <a href="/projects.html">
+            <p class="text-dark">View All ==></p>
+          </a>
+        </div>
+
+        <div class="projects container">
+          <div class="row mx-0">
+            <!-- 第一個專案 -->
+            <div class="col-12 px-0">
+              <div class="project-photo">
+                <div class="project-intro">
+                  <span class="project-name">WR-7 Commercial</span>
+                  <span class="project-client">Sangean</span>
+                </div>
+              </div>
+            </div>
+            <!-- 第二個專案 -->
+            <div class="col-12 px-0">
+              <div class="project-photo">
+                <div class="project-intro">
+                  <span class="project-name">Brand Commercial</span>
+                  <span class="project-client">Golden Sound</span>
+                </div>
+              </div>
+            </div>
+            <!-- 第三個專案 -->
+            <div class="col-12 px-0">
+              <div class="project-photo">
+                <div class="project-intro">
+                  <span class="project-name">WR-7 Commercial</span>
+                  <span class="project-client">Sangean</span>
+                </div>
+              </div>
+            </div>
+            <!-- 第四個專案 -->
+            <div class="col-12 px-0">
+              <div class="project-photo">
+                <div class="project-intro">
+                  <span class="project-name">WR-7 Commercial</span>
+                  <span class="project-client">Sangean</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section3-desktop">
+        <div class="container px-0">
+          <div class="row mx-0">
+            <div class="col-4 px-0">
+              <div class="title">
+                <h1>PROJECT</h1>
+              </div>
+
+              <div class="button-viewAll">
+                <a href="/projects.html">
+                  <p class="text-dark">View All ==></p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-8 px-0">
+              <div class="projects">
+                <div class="row mx-0">
+                  <!-- 第一個專案 -->
+                  <div class="col-6 px-0">
+                    <div class="project-photo">
+                      <div class="project-intro">
+                        <span class="project-name">WR-7 Commercial</span>
+                        <span class="project-client">Sangean</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 第二個專案 -->
+                  <div class="col-6 px-0">
+                    <div class="project-photo">
+                      <div class="project-intro">
+                        <span class="project-name">Brand Commercial</span>
+                        <span class="project-client">Golden Sound</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 第三個專案 -->
+                  <div class="col-6 px-0">
+                    <div class="project-photo">
+                      <div class="project-intro">
+                        <span class="project-name">WR-7 Commercial</span>
+                        <span class="project-client">Sangean</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 第四個專案 -->
+                  <div class="col-6 px-0">
+                    <div class="project-photo">
+                      <div class="project-intro">
+                        <span class="project-name">WR-7 Commercial</span>
+                        <span class="project-client">Sangean</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- #Footer -->
+    <div id="footer">
+      <div class="row">
+        <!-- Title -->
+        <div id="footer-title" class="col-lg-6">
+          <div>JOIN</div>
+          <div>OUR</div>
+          <div>JOURNEY</div>
+        </div>
+        <!-- Contact -->
+        <div id="footer-contact" class=" col-lg-6">
+          <div class="pb-3">
+            <img src="https://fakeimg.pl/20x20" class="pr-2" alt="location" />
+            0100 Carter Mall Apt. 466
+          </div>
+          <div class="pb-3">
+            <img src="https://fakeimg.pl/20x20" class="pr-2" alt="phone" />
+            420-048-8958
+          </div>
+          <div class="pb-3">
+            <img src="https://fakeimg.pl/20x20" class="pr-2" alt="email" />
+            info@realent.co
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
 
