@@ -25,7 +25,7 @@
           <a class="navbar-brand" href="/index.html">
             <div class="header-logo">
               <img
-                src="assets/logo-2.svg"
+                src="./css/assets/logo-2.svg"
                 class="d-inline-block align-top img-fluid"
                 alt="LOGO"
               />
@@ -42,17 +42,12 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <!-- 選單內容 -->
-          <div
-            class="menu-content collapse navbar-collapse"
-            id="navbarNavAltMarkup"
-          >
+          <!-- SideMenu-desktopTablet -->
+          <div class="sideMenu-desktopTablet collapse navbar-collapse">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="/about.html"
-                >About<span class="sr-only">(current)</span></a
-              >
+              <a class="nav-item nav-link active" href="/about.html">About</a>
               <a class="nav-item nav-link" href="/projects.html">Project</a>
-              <a class="nav-item nav-link" href="#footer">Contact</a>
+              <a class="nav-item nav-link" href="#section4">Contact</a>
             </div>
           </div>
         </nav>
@@ -69,6 +64,49 @@
         </p>
       </div>
     </div>
+
+    <!-- SideMenu-mobile -->
+    <nav
+      class="sideMenu-mobile navbar navbar-expand-lg fixed-top"
+      id="navbarNavAltMarkup"
+    >
+      <div id="close">
+        <div class="closeIcon"></div>
+      </div>
+      <div class="navbar-collapse offcanvas-collapse">
+        <div class="linkInfo">
+          <a class="" href="/inedex.html">HOME</a>
+          <a class="" href="/about.html">ABOUT</a>
+          <a class="" href="/projects.html">PROJECT</a>
+        </div>
+        <div class="contactInfo">
+          <div class="contactText pb-3">
+            <img
+              src="./css/assets/icon/location-white.svg"
+              class="pr-2"
+              alt="location"
+            />
+            0100 Carter Mall Apt. 466
+          </div>
+          <div class="contactText pb-3">
+            <img
+              src="./css/assets/icon/mobile-white.svg"
+              class="pr-2"
+              alt="phone"
+            />
+            420-048-8958
+          </div>
+          <div class="contactText pb-3">
+            <img
+              src="./css/assets/icon/mail-white.svg"
+              class="pr-2"
+              alt="email"
+            />
+            info@realent.co
+          </div>
+        </div>
+      </div>
+    </nav>
 
     <!-- WHO WE ARE -->
     <div id="section1">
@@ -88,7 +126,12 @@
         </p>
         <div class="button-seeMore">
           <a href="/about.html">
-            <p class="text-light">See more ==></p>
+            See more
+            <img
+              class="arrow-right-icon"
+              src="./css/assets/icon/arrow-right-white.svg"
+              alt=""
+            />
           </a>
         </div>
         <div style="clear:both"></div>
@@ -226,14 +269,21 @@
     <!-- PROJECTS -->
     <div id="section3">
       <div class="section3-mobileTablet">
-        <div class="title">
-          <h1>PROJECT</h1>
-        </div>
+        <div class="header">
+          <div class="title">
+            <h1>PROJECT</h1>
+          </div>
 
-        <div class="button-viewAll">
-          <a href="/projects.html">
-            <p class="text-dark">View All ==></p>
-          </a>
+          <div class="button-viewAll">
+            <a href="/projects.html">
+              View All
+              <img
+                class="arrow-right-icon"
+                src="./css/assets/icon/arrow-right-black.svg"
+                alt=""
+              />
+            </a>
+          </div>
         </div>
 
         <div class="projects container">
@@ -279,7 +329,7 @@
       </div>
 
       <div class="section3-desktop">
-        <div class="container px-0">
+        <div class="projects container px-0">
           <div class="row mx-0">
             <div class="col-4 px-0">
               <div class="title">
@@ -288,7 +338,12 @@
 
               <div class="button-viewAll">
                 <a href="/projects.html">
-                  <p class="text-dark">View All ==></p>
+                  View All
+                  <img
+                    class="arrow-right-icon"
+                    src="./css/assets/icon/arrow-right-black.svg"
+                    alt=""
+                  />
                 </a>
               </div>
             </div>
@@ -340,17 +395,17 @@
       </div>
     </div>
 
-    <!-- #Footer -->
-    <div id="footer">
+    <!-- CONTACT -->
+    <div id="section4">
       <div class="row">
         <!-- Title -->
-        <div id="footer-title" class="col-lg-6">
+        <div class="contactTitle col-lg-6">
           <div>JOIN</div>
           <div>OUR</div>
           <div>JOURNEY</div>
         </div>
         <!-- Contact -->
-        <div id="footer-contact" class=" col-lg-6">
+        <div class="contactInfo col-lg-6">
           <div class="pb-3">
             <img src="https://fakeimg.pl/20x20" class="pr-2" alt="location" />
             0100 Carter Mall Apt. 466
@@ -386,5 +441,7 @@
     ></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+    <script src="js/index.js"></script>
   </body>
 </html>

@@ -6,6 +6,12 @@ body {
   min-width: 375px;
 }
 
+a:hover,
+#close:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
 #section1,
 #section2 {
   font-family: Montserrat;
@@ -60,17 +66,35 @@ body {
   letter-spacing: 1.17px;
 }
 
-#footer #footer-title {
+#section1 .team-intro .button-seeMore>a {
+  color: #ffffff;
+}
+
+#section1 .button-seeMore .arrow-right-icon {
+  margin-left: 10px;
+  padding-bottom: 3px;
+  width: 68.4px;
+  height: 16.1px;
+}
+
+#section3 .button-viewAll .arrow-right-icon {
+  padding-bottom: 5px;
+  width: 68.4px;
+  height: 16.1px;
+}
+
+#section4 .contactTitle {
   font-weight: 900;
   color: #000000;
 }
 
-#footer #footer-contact {
+#section4 .contactInfo {
   color: #000000;
 }
 
 /* Mobile */
 @media screen and (max-width: 767.98px) {
+
   /* Header */
   #header {
     position: relative;
@@ -81,7 +105,7 @@ body {
   }
 
   .hero-image {
-    background-image: url(../assets/sample1.png);
+    background-image: url(./assets/sample1.png);
     background-size: cover;
     background-position: center;
     display: block;
@@ -100,13 +124,11 @@ body {
   }
 
   #header .navbar-light .navbar-toggler-icon {
-    background-image: url(../assets/icon/menu.svg);
+    background-image: url(./assets/icon/menu.svg);
   }
 
-  #header .navbar .menu-content {
-    width: 100%;
-    height: 100%;
-    background: #000000;
+  #header .navbar .sideMenu-desktopTablet {
+    display: none;
   }
 
   #header .navbar-nav {
@@ -142,7 +164,7 @@ body {
   }
 
   .header-side-image {
-    background-image: url(../assets/sample2.png);
+    background-image: url(./assets/sample2.png);
     background-size: cover;
     background-position: center;
     display: block;
@@ -157,7 +179,7 @@ body {
     color: #ffffff;
   }
 
-  .header-text > p {
+  .header-text>p {
     margin: 0 auto;
     width: 320px;
     font-size: 16px;
@@ -166,13 +188,74 @@ body {
     letter-spacing: 0.89px;
   }
 
-  /* Section 1 */
+  /* Side Menu */
+  .sideMenu-mobile {
+    display: none;
+  }
+
+  .sideMenu-mobile.show {
+    min-width: 375px;
+    width: calc(100%-118px);
+    height: 100%;
+    padding: 104px 59px 86px 59px;
+    display: block;
+    background: #000000;
+    color: #ffffff;
+  }
+
+  .sideMenu-mobile #close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+
+  .sideMenu-mobile #close .closeIcon {
+    background-image: url(./assets/icon/close.svg);
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+
+  .sideMenu-mobile .linkInfo {
+    text-align: center;
+    height: 100%;
+  }
+
+  .sideMenu-mobile .linkInfo>a {
+    display: block;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.25;
+    letter-spacing: 2.67px;
+  }
+
+  .sideMenu-mobile .linkInfo>a:nth-child(1),
+  .sideMenu-mobile .linkInfo>a:nth-child(2) {
+    padding-bottom: 50px;
+  }
+
+  .sideMenu-mobile .contactInfo {
+    width: 425px;
+    margin: 0px auto;
+    margin-top: 244px;
+
+  }
+
+  .sideMenu-mobile .contactInfo .contactText {
+    display: block;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.67px;
+  }
+
+  /* Mobile Section 1 */
   #section1 {
     margin-bottom: 43px;
   }
 
   #section1 .logo-backgroundImage {
-    background-image: url(../assets/logo_bg_s.png);
+    background-image: url(./assets/logo_bg_s.png);
     background-size: cover;
     padding: 116px 87px;
     min-width: 375px;
@@ -180,7 +263,7 @@ body {
   }
 
   #section1 .logo-mobile {
-    background-image: url(../assets/logo-1.svg);
+    background-image: url(./assets/logo-1.svg);
     min-width: 200px;
     height: 80px;
   }
@@ -204,7 +287,7 @@ body {
     margin-top: 55px;
   }
 
-  /* Section 2 */
+  /* Mobile Section 2 */
   #section2 .section2-mobile {
     display: block;
     min-width: 375px;
@@ -219,7 +302,7 @@ body {
     padding: 0px 144px 42px 31px;
   }
 
-  #section2 > h1 {
+  #section2>h1 {
     width: 200px;
     height: 80px;
     font-size: 36px;
@@ -229,9 +312,14 @@ body {
   }
 
   #section2 .section2-mobile .section2-content {
-    min-width: 375px;
+    /* min-width: 375px;
     width: 100%;
+    padding: 0px; */
+    width: 375px;
+    width: 100%;
+    max-width: 767.98px;
     padding: 0px;
+    margin: 0px auto;
   }
 
   #section2 .team-mb {
@@ -240,7 +328,7 @@ body {
   }
 
   #section2 .team-mb-photo {
-    background-image: url(../assets/sample2.png);
+    background-image: url(./assets/sample2.png);
     background-size: cover;
     background-position: center;
     min-width: 160px;
@@ -249,7 +337,7 @@ body {
 
   #section2 .team-mb-intro {
     padding: 26px 25px 38px 25px;
-    width: 200px;
+    width: 100%;
     text-align: center;
   }
 
@@ -273,21 +361,28 @@ body {
     letter-spacing: 0.67px;
   }
 
-  /* Section3 */
+  /* Mobile Section3 */
   #section3 .section3-mobileTablet {
     display: block;
+    width: 375px;
+    width: 100%;
+    max-width: 767.98px;
+    margin: 0px auto;
   }
 
   #section3 .section3-desktop {
     display: none;
   }
 
+  #section3 .section3-mobileTablet .header {
+    padding: 0px 29px 0px 31px;
+  }
+
   #section3 .section3-mobileTablet .title {
-    padding: 0px 144px 0px 31px;
     margin-bottom: 40px;
   }
 
-  #section3 .section3-mobileTablet .title > h1 {
+  #section3 .section3-mobileTablet .title>h1 {
     width: 325px;
     height: 40px;
     font-size: 36px;
@@ -296,34 +391,36 @@ body {
     letter-spacing: 2px;
   }
 
-  #section3 .button-viewAll {
-    padding: 0px 104px 0px 31px;
-    margin-bottom: 40px;
+  #section3 .section3-mobileTablet .button-viewAll {
+    margin: 0px 104px 40px 0px;
+    padding: 10px 12px 10px 24px;
+    border: solid 1px #000000;
+    width: 240px;
   }
 
-  #section3 .button-viewAll a > p {
-    width: 240px;
-    height: 60px;
-    padding: 9px 12px 11px 24px;
-    border: solid 1px #000000;
+  #section3 .section3-mobileTablet .button-viewAll a {
+    height: 40px;
     font-size: 21px;
+    color: #000000;
     font-weight: 500;
     line-height: 1.9;
     letter-spacing: 1.17px;
   }
 
   #section3 .projects {
+    max-width: 767.98px;
     padding: 0px;
-    margin: 0px auto;
+    margin: 0px;
   }
 
   #section3 .projects .project-photo {
-    background-image: url(../assets/sample3.png);
+    background-image: url(./assets/sample3.png);
     background-size: cover;
     background-position: center;
-    width: 375px;
+    min-width: 375px;
     width: 100%;
-    height: 248px;
+    min-height: 248px;
+    height: 100%;
   }
 
   #section3 .projects .project-intro {
@@ -352,15 +449,15 @@ body {
     color: #ffffff;
   }
 
-  /* Footer */
-  #footer {
+  /* Mobile Section4 */
+  #section4 {
     margin-top: 40px;
     padding-left: 31px;
     padding-right: 19px;
     text-align: left;
   }
 
-  #footer #footer-title {
+  #section4 .contactTitle {
     margin-top: 40px;
     margin-bottom: 43px;
     font-size: 36px;
@@ -368,7 +465,7 @@ body {
     letter-spacing: 2px;
   }
 
-  #footer #footer-contact {
+  #section4 .contactInfo {
     margin-bottom: 165px;
     font-size: 16px;
     line-height: 1.5;
@@ -378,7 +475,8 @@ body {
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
-  /* Header */
+
+  /* Tablet Header */
   #header {
     position: relative;
     min-width: 768px;
@@ -387,7 +485,7 @@ body {
   }
 
   .hero-image {
-    background-image: url(../assets/sample1.png);
+    background-image: url(./assets/sample1.png);
     background-size: cover;
     background-position: center;
     display: block;
@@ -443,7 +541,7 @@ body {
   }
 
   .header-side-image {
-    background-image: url(../assets/sample2.png);
+    background-image: url(./assets/sample2.png);
     background-size: cover;
     background-position: center;
     display: block;
@@ -458,7 +556,7 @@ body {
     color: #ffffff;
   }
 
-  .header-text > p {
+  .header-text>p {
     width: 330px;
     font-size: 16px;
     font-weight: 500;
@@ -466,7 +564,12 @@ body {
     letter-spacing: 0.89px;
   }
 
-  /* Section 1 */
+  /* Side Menu */
+  .sideMenu-mobile {
+    display: none;
+  }
+
+  /* Tablet Section 1 */
   #section1 {
     position: relative;
     height: 620px;
@@ -474,7 +577,7 @@ body {
   }
 
   #section1 .logo-backgroundImage {
-    background-image: url(../assets/logo_bg_b.png);
+    background-image: url(./assets/logo_bg_b.png);
     background-size: cover;
     min-width: 589px;
     height: 650px;
@@ -493,7 +596,7 @@ body {
   }
 
   #section1 .logo {
-    background-image: url(../assets/logo-1.svg);
+    background-image: url(./assets/logo-1.svg);
     min-width: 161px;
     height: 62px;
     position: absolute;
@@ -518,7 +621,7 @@ body {
     margin-top: 103px;
   }
 
-  /* Section 2 */
+  /* Tablet Section 2 */
   #section2 .section2-mobile,
   #section2 .section2-desktop {
     display: none;
@@ -529,7 +632,7 @@ body {
     margin-top: 74px;
   }
 
-  #section2 .section2-tablet > .container {
+  #section2 .section2-tablet>.container {
     padding: 0px 23px 0px 56px;
   }
 
@@ -537,7 +640,7 @@ body {
     padding: 0px 144px 42px 31px;
   }
 
-  #section2 > h1 {
+  #section2>h1 {
     width: 200px;
     height: 120px;
     font-size: 48px;
@@ -547,7 +650,7 @@ body {
   }
 
   #section2 .team-mb-photo {
-    background-image: url(../assets/sample2.png);
+    background-image: url(./assets/sample2.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -580,9 +683,11 @@ body {
     letter-spacing: 0.67px;
   }
 
-  /* Section3 */
+  /* Tablet Section3 */
   #section3 .section3-mobileTablet {
     display: block;
+    width: 100%;
+    margin: 0px auto;
     margin-top: 36px;
   }
 
@@ -590,15 +695,18 @@ body {
     display: none;
   }
 
+  #section3 .section3-mobileTablet .header {
+    width: 100%;
+    padding: 0px 32px 0px 56px;
+  }
+
   #section3 .section3-mobileTablet .title {
     display: inline-block;
-    padding-left: 56px;
-    width: calc(60%-56px);
+    width: 325px;
     margin-bottom: 40px;
   }
 
-  #section3 .section3-mobileTablet .title > h1 {
-    width: 400px;
+  #section3 .section3-mobileTablet .title>h1 {
     height: 40px;
     font-size: 36px;
     font-weight: 900;
@@ -606,18 +714,17 @@ body {
     letter-spacing: 2px;
   }
 
-  #section3 .button-viewAll {
+  #section3 .section3-mobileTablet .button-viewAll {
     display: inline-block;
-    padding-right: 32px;
-    width: calc(40%-32px);
+    border: solid 1px #000000;
+    padding: 10px 12px 10px 24px;
+    width: 208px;
     margin-bottom: 40px;
   }
 
-  #section3 .button-viewAll a > p {
-    width: 240px;
-    height: 60px;
-    padding: 9px 12px 11px 24px;
-    border: solid 1px #000000;
+  #section3 .section3-mobileTablet .button-viewAll a {
+    height: 40px;
+    color: #000000;
     font-size: 21px;
     font-weight: 500;
     line-height: 1.9;
@@ -625,17 +732,21 @@ body {
   }
 
   #section3 .projects {
+    width: 100%;
+    max-width: 991.97px;
     padding: 0px;
-    margin: 0px auto;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   #section3 .projects .project-photo {
-    background-image: url(../assets/sample3.png);
+    background-image: url(./assets/sample3.png);
     background-size: cover;
     background-position: center;
-    width: 768px;
+    min-width: 768px;
     width: 100%;
-    height: 510px;
+    min-height: 510px;
+    height: 100%;
   }
 
   #section3 .projects .project-intro {
@@ -664,14 +775,14 @@ body {
     color: #ffffff;
   }
 
-  /* Footer */
-  #footer {
+  /* Tablet Section4 */
+  #section4 {
     padding-left: 56px;
     padding-right: 56px;
     text-align: left;
   }
 
-  #footer #footer-title {
+  #section4 .contactTitle {
     margin-top: 75px;
     margin-bottom: 46px;
     font-size: 48px;
@@ -679,7 +790,7 @@ body {
     letter-spacing: 2.67px;
   }
 
-  #footer #footer-contact {
+  #section4 .contactInfo {
     margin-bottom: 65px;
     padding-left: 360px;
     font-size: 21px;
@@ -690,7 +801,8 @@ body {
 
 /* Desktop */
 @media screen and (min-width: 992px) {
-  /* Header */
+
+  /* Desktop Header */
   #header {
     position: relative;
     min-width: 768px;
@@ -700,7 +812,7 @@ body {
   }
 
   .hero-image {
-    background-image: url(../assets/sample1.png);
+    background-image: url(./assets/sample1.png);
     background-size: cover;
     background-position: center;
     display: block;
@@ -743,7 +855,7 @@ body {
     color: #ffffff;
   }
 
-  .header-text > p {
+  .header-text>p {
     width: 546px;
     font-size: 21px;
     font-weight: 500;
@@ -760,7 +872,7 @@ body {
   }
 
   .header-side-image {
-    background-image: url(../assets/sample2.png);
+    background-image: url(./assets/sample2.png);
     background-size: cover;
     background-position: center;
     display: block;
@@ -768,7 +880,12 @@ body {
     height: 100%;
   }
 
-  /* Section 1 */
+  /* Side Menu */
+  .sideMenu-mobile {
+    display: none;
+  }
+
+  /* Desktop Section 1 */
   #section1 {
     position: relative;
     height: 620px;
@@ -776,7 +893,7 @@ body {
   }
 
   #section1 .logo-backgroundImage {
-    background-image: url(../assets/logo_bg_b.png);
+    background-image: url(./assets/logo_bg_b.png);
     background-size: cover;
     min-width: 900px;
     height: 670px;
@@ -814,7 +931,7 @@ body {
     margin-left: 453px;
   }
 
-  /* Section 2 */
+  /* Desktop Section 2 */
   #section2 .section2-desktop {
     display: block;
     margin-top: 53px;
@@ -833,7 +950,7 @@ body {
   }
 
   #section2 .team-mb-photo {
-    background-image: url(../assets/sample2.png);
+    background-image: url(./assets/sample2.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -842,7 +959,8 @@ body {
   }
 
   #section2 .team-mb-intro {
-    width: 172px;
+    min-width: 172px;
+    width: 100%;
     padding: 26px 0px 38px 0px;
     text-align: center;
   }
@@ -867,7 +985,7 @@ body {
     letter-spacing: 0.89px;
   }
 
-  /* Section 3 */
+  /* Desktop Section 3 */
   #section3 .section3-desktop {
     display: block;
     margin-top: 75px;
@@ -884,7 +1002,7 @@ body {
     margin-bottom: 18px;
   }
 
-  #section3 .section3-desktop .title > h1 {
+  #section3 .section3-desktop .title>h1 {
     width: 270px;
     height: 52px;
     font-size: 48px;
@@ -893,34 +1011,34 @@ body {
     letter-spacing: 2.67px;
   }
 
-  #section3 .button-viewAll {
-    padding-left: 42px;
-    width: 100%;
+  #section3 .section3-desktop .button-viewAll {
+    width: 206px;
+    margin-left: 42px;
+    padding: 20px 12px 20px 24px;
+    border: solid 1px #000000;
   }
 
-  #section3 .button-viewAll a > p {
-    width: 206px;
+  #section3 .section3-desktop .button-viewAll a {
     height: 52px;
-    padding: 9px 12px 11px 24px;
-    border: solid 1px #000000;
+    color: #000000;
     font-size: 21px;
     font-weight: 500;
     line-height: 1.9;
     letter-spacing: 1.17px;
   }
 
-  /* #section3 .projects {
-    padding: 0px;
+  #section3 .projects {
     margin: 0px auto;
-  } */
+  }
 
   #section3 .projects .project-photo {
-    background-image: url(../assets/sample3.png);
+    background-image: url(./assets/sample3.png);
     background-size: cover;
     background-position: center;
-    min-width: 332px;
+    min-width: 330px;
     width: 100%;
-    height: 205px;
+    min-height: 205px;
+    height: 100%;
   }
 
   #section3 .projects .project-intro {
@@ -949,20 +1067,24 @@ body {
     color: #ffffff;
   }
 
-  /* Footer */
-  #footer {
-    padding-left: 162px;
+  /* Desktop Section4 */
+  #section4 {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 218px;
     padding-right: 114px;
-    text-align: left;
+    margin-bottom: 148px;
   }
 
-  #footer #footer-title {
+  #section4 .contactTitle {
+    padding: 0px;
     font-size: 48px;
     line-height: 1.25;
     letter-spacing: 2.67px;
   }
 
-  #footer #footer-contact {
+  #section4 .contactInfo {
+    padding: 0px;
     margin-top: 47px;
     font-size: 21px;
     line-height: 1.14;
