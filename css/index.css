@@ -115,12 +115,20 @@ a:hover,
   }
 
   #header .navbar {
-    padding: 11px 25px 0px 18px;
+    padding: 10px 22px 0px 20px;
+    background-color: #000000;
+    min-width: 375px;
+    width: 100%;
+    min-height: 44px;
   }
 
   #header .navbar-toggler {
     color: #ffffff;
-    border-color: transparent;
+    background-color: #000000;
+    border: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
   }
 
   #header .navbar-light .navbar-toggler-icon {
@@ -129,6 +137,26 @@ a:hover,
 
   #header .navbar .sideMenu-desktopTablet {
     display: none;
+  }
+
+  .rotateInUpRight {
+    animation-duration: 2s;
+    animation-delay: 0.25s;
+  }
+
+  .fadeInUp {
+    animation-duration: 3s;
+    animation-delay: 0.75s;
+  }
+
+  .fadeOutDown {
+    animation-duration: 2s;
+    animation-delay: 0.25s;
+  }
+
+  .rotateOutUpLeft {
+    animation-duration: 3s;
+    animation-delay: 1s;
   }
 
   #header .navbar-nav {
@@ -150,9 +178,14 @@ a:hover,
     margin-bottom: 50px;
   }
 
+  .navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .header-logo {
-    width: 100px;
-    height: 48px;
+    width: 75px;
+    height: 36px;
   }
 
   .header-side-bg {
@@ -218,6 +251,7 @@ a:hover,
 
   .sideMenu-mobile .linkInfo {
     text-align: center;
+    margin-bottom: 30px;
     height: 100%;
   }
 
@@ -502,10 +536,14 @@ a:hover,
     display: none;
   }
 
+  #header .fixed-top {
+    position: absolute;
+  }
+
   #header .navbar-collapse {
     display: flex;
     justify-content: flex-end;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 
   #header .navbar-nav {
@@ -821,12 +859,21 @@ a:hover,
   }
 
   #header .navbar {
-    padding: 27px 65px 0px 22px;
+    padding: 27px 65px 0px 32px;
+  }
+
+  #header .fixed-top {
+    position: absolute;
+  }
+
+  #header .navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   #header .navbar-collapse {
     justify-content: flex-end;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 
   #header .nav-item {

@@ -15,42 +15,48 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <!-- Animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
     <title>Real-Entertainment</title>
   </head>
   <body>
     <!-- #Header -->
     <div id="header">
-      <div class="hero-image img-responsive">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-          <a class="navbar-brand" href="/index.html">
-            <div class="header-logo">
-              <img
-                src="./css/assets/logo-2.svg"
-                class="d-inline-block align-top img-fluid"
-                alt="LOGO"
-              />
-            </div>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- SideMenu-desktopTablet -->
-          <div class="sideMenu-desktopTablet collapse navbar-collapse">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="/about.html">About</a>
-              <a class="nav-item nav-link" href="/projects.html">Project</a>
-              <a class="nav-item nav-link" href="#section4">Contact</a>
-            </div>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="/index.html">
+          <div class="header-logo">
+            <img
+              src="./css/assets/logo-2.svg"
+              class="d-inline-block align-top img-fluid"
+              alt="LOGO"
+            />
           </div>
-        </nav>
+        </a>
+        <div
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          id="navbarButton"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </div>
+        <!-- SideMenu-desktopTablet -->
+        <div class="sideMenu-desktopTablet collapse navbar-collapse">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link py-0" href="/about.html">About</a>
+            <a class="nav-item nav-link py-0" href="/projects.html">Project</a>
+            <a class="nav-item nav-link py-0" href="#section4">Contact</a>
+          </div>
+        </div>
+      </nav>
+      <div class="hero-image img-responsive">
         <div class="header-side-bg">
           <div class="header-side-image"></div>
         </div>
@@ -75,9 +81,9 @@
       </div>
       <div class="navbar-collapse offcanvas-collapse">
         <div class="linkInfo">
-          <a class="" href="/inedex.html">HOME</a>
-          <a class="" href="/about.html">ABOUT</a>
-          <a class="" href="/projects.html">PROJECT</a>
+          <a class="mobileHome" href="/inedex.html">HOME</a>
+          <a class="mobileAbout" href="/about.html">ABOUT</a>
+          <a class="mobileProject" href="/projects.html">PROJECT</a>
         </div>
         <div class="contactInfo">
           <div class="contactText pb-3">
