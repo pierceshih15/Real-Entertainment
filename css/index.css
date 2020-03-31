@@ -461,6 +461,20 @@ a:hover,
     padding: 171px 136px 29px 36px;
   }
 
+  .fadeInUp {
+    animation-duration: 0.75s;
+    animation-delay: 0.25s;
+  }
+
+  .fadeOutDown {
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
+  }
+
+  .project-intro-hover {
+    background-color: rgba(9, 75, 131, 0.8);
+  }
+
   #section3 .projects .project-intro .project-name {
     display: block;
     width: 203px;
@@ -791,6 +805,20 @@ a:hover,
     padding: 436px 136px 29px 36px;
   }
 
+  .fadeInUp {
+    animation-duration: 0.75s;
+    animation-delay: 0.25s;
+  }
+
+  .fadeOutDown {
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
+  }
+
+  .project-intro-hover {
+    background-color: rgba(9, 75, 131, 0.8);
+  }
+
   #section3 .projects .project-intro .project-name {
     display: block;
     width: 203px;
@@ -1090,6 +1118,20 @@ a:hover,
 
   #section3 .projects .project-intro {
     padding: 137px 200px 16px 19px;
+  }
+
+  .fadeInUp {
+    animation-duration: 0.75s;
+    animation-delay: 0.25s;
+  }
+
+  .fadeOutDown {
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
+  }
+
+  .project-intro-hover {
+    background-color: rgba(9, 75, 131, 0.8);
   }
 
   #section3 .projects .project-intro .project-name {
