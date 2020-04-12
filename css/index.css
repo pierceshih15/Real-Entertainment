@@ -507,17 +507,93 @@ a:hover,
 
   #section4 .contactTitle {
     margin-top: 40px;
-    margin-bottom: 43px;
+    margin-bottom: 30px;
     font-size: 36px;
     line-height: 1.39;
     letter-spacing: 2px;
   }
 
   #section4 .contactInfo {
-    margin-bottom: 165px;
+    margin-bottom: 41px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.89px;
+  }
+
+  #section4 .formList {
+    max-width: 265px;
+    width: 100%;
+  }
+
+  #section4 .form-placeholder {
+    width: 53px;
+    height: 100%;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.89px;
+  }
+
+  #section4 .form-input-style {
+    border: 0 none;
+    border-radius: 0px;
+    min-width: 265px;
+    max-width: 375px;
+    width: 100%;
+    padding: 16px 6px 16px 6px;
+    border-bottom: 2px #000000 solid;
+    margin-bottom: 7px;
+  }
+
+  #section4 .form-textarea-style {
+    border: 0 none;
+    border-radius: 0px;
+    min-width: 265px;
+    max-width: 375px;
+    width: 100%;
+    height: 200px;
+    padding: 16px 6px 16px 6px;
+    border-bottom: 2px #000000 solid;
+    margin-bottom: 7px;
+  }
+
+  #section4 .user-submit {
+    margin-top: 22.5px;
+    margin-bottom: 189px;
+  }
+
+  #section4 .submit-button {
+    width: 266px;
+    height: 60px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: 1.17px;
+  }
+
+  #section4 .form-submit-success-content {
+    width: 100%;
+    margin-top: 15px;
+    text-align: left;
+  }
+
+  #section4 .form-submit-success {
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #df732b;
   }
 }
 
@@ -863,6 +939,83 @@ a:hover,
     line-height: 1.14;
     letter-spacing: 1.17px;
   }
+
+  #section4 .formList {
+    max-width: 768px;
+    width: 100%;
+  }
+
+  #section4 .form-placeholder {
+    width: 53px;
+    height: 100%;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.89px;
+  }
+
+  #section4 .form-input-style {
+    border: 0 none;
+    border-radius: 0px;
+    min-width: 300px;
+    max-width: 360px;
+    width: 100%;
+    padding: 16px 6px 16px 6px;
+    border-bottom: 2px #000000 solid;
+    margin-bottom: 7px;
+  }
+
+  #section4 .form-textarea-style {
+    border: 0 none;
+    border-radius: 0px;
+    min-width: 600px;
+    max-width: 720px;
+    width: 100%;
+    height: 150px;
+    padding: 16px 6px 16px 6px;
+    border-bottom: 2px #000000 solid;
+    margin-bottom: 7px;
+  }
+
+  #section4 .user-submit {
+    margin-top: 30px;
+    margin-bottom: 146px;
+    text-align: right;
+  }
+
+  #section4 .submit-button {
+    width: 206px;
+    height: 52px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: 1.17px;
+  }
+
+  #section4 .form-submit-success-content {
+    width: 100%;
+    margin-top: 15px;
+    text-align: right;
+  }
+
+  #section4 .form-submit-success {
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #df732b;
+  }
 }
 
 /* Desktop */
@@ -1162,7 +1315,6 @@ a:hover,
     margin: 0 auto;
     padding-left: 218px;
     padding-right: 114px;
-    margin-bottom: 148px;
   }
 
   #section4 .contactTitle {
@@ -1178,5 +1330,84 @@ a:hover,
     font-size: 21px;
     line-height: 1.14;
     letter-spacing: 1.17px;
+  }
+
+  #section4 .formList {
+    margin-top: 60px;
+    padding-left: 0px;
+    max-width: 768px;
+    width: 100%;
+  }
+
+  #section4 .form-placeholder {
+    width: 53px;
+    height: 100%;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.89px;
+  }
+
+  #section4 .form-input-style {
+    border: 0 none;
+    border-radius: 0px;
+    min-width: 300px;
+    max-width: 480px;
+    width: 100%;
+    padding: 16px 6px 16px 6px;
+    border-bottom: 2px #000000 solid;
+    margin-bottom: 7px;
+  }
+
+  #section4 .form-textarea-style {
+    border: 0 none;
+    border-radius: 0px;
+    min-width: 300px;
+    max-width: 960px;
+    width: 100%;
+    height: 150px;
+    padding: 16px 6px 16px 6px;
+    border-bottom: 2px #000000 solid;
+    margin-bottom: 7px;
+  }
+
+  #section4 .user-submit {
+    margin-top: 30px;
+    margin-bottom: 114px;
+    text-align: right;
+  }
+
+  #section4 .submit-button {
+    width: 206px;
+    height: 52px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: 1.17px;
+  }
+
+  #section4 .form-submit-success-content {
+    width: 100%;
+    margin-top: 15px;
+    text-align: right;
+  }
+
+  #section4 .form-submit-success {
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #df732b;
   }
 }

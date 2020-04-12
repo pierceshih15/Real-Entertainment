@@ -140,7 +140,7 @@
             />
           </a>
         </div>
-        <div style="clear:both"></div>
+        <div style="clear: both;"></div>
       </div>
     </div>
 
@@ -425,6 +425,52 @@
             info@realent.co
           </div>
         </div>
+        <!-- Form -->
+        <div class="formList col-md-12 col-lg-12">
+          <div class="row">
+            <div class="user-name col-md-6 col-lg-6">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-input-style form-placeholder"
+                placeholder="Name"
+              />
+            </div>
+            <div class="user-email col-md-6 col-lg-6">
+              <input
+                type="text"
+                id="email"
+                name="email"
+                class="form-input-style form-placeholder"
+                placeholder="Email"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="user-message col-md-12 col-lg-12">
+              <textarea
+                name="textarea"
+                id="textarea"
+                name="textarea"
+                class="form-textarea-style form-placeholder"
+                placeholder="Message"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="user-submit col-md-12 col-lg-12">
+              <button type="submit" class="submit-button">
+                Send
+              </button>
+              <div class="form-submit-success-content d-none">
+                <div class="form-submit-success">
+                  We will contact you as soon as possible!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -449,5 +495,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 
     <script src="js/index.js"></script>
+    <script src="js/formSumbit.js"></script>
   </body>
 </html>
