@@ -104,13 +104,15 @@ a:hover,
     height: 100%;
   }
 
-  .hero-image {
-    background-image: url(./assets/sample1.png);
-    background-size: cover;
-    background-position: center;
-    display: block;
+  #header .video-style {
     width: 100%;
-    min-height: 427px;
+    height: 100%;
+  }
+
+  #header #my-player {
+    min-width: 375px;
+    width: 100%;
+    min-height: 350px;
     height: 100%;
   }
 
@@ -188,10 +190,32 @@ a:hover,
     height: 36px;
   }
 
+  #header .header-content {
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .header-text {
+    width: 210px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.89px;
+  }
+
+  .header-text>p {
+    padding: 28px 137px 28px 31px;
+    margin: 0px;
+  }
+
   .header-side-bg {
     position: absolute;
     right: 0;
-    bottom: 226px;
+    top: 0;
     width: 110px;
     height: 110px;
   }
@@ -203,22 +227,6 @@ a:hover,
     display: block;
     width: 100%;
     height: 100%;
-  }
-
-  .header-text {
-    background-color: #000000;
-    width: 100%;
-    padding: 28px 24px 28px 31px;
-    color: #ffffff;
-  }
-
-  .header-text>p {
-    margin: 0 auto;
-    width: 320px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.89px;
   }
 
   /* Side Menu */
@@ -503,6 +511,7 @@ a:hover,
     padding-left: 31px;
     padding-right: 19px;
     text-align: left;
+    position: relative;
   }
 
   #section4 .contactTitle {
@@ -562,7 +571,6 @@ a:hover,
 
   #section4 .user-submit {
     margin-top: 22.5px;
-    margin-bottom: 189px;
   }
 
   #section4 .submit-button {
@@ -595,6 +603,30 @@ a:hover,
     letter-spacing: normal;
     color: #df732b;
   }
+
+  #section4 .backButton {
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    bottom: -215px;
+    margin-bottom: 100px;
+  }
+
+  #section4 .backText {
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 1.17px;
+  }
+
+  #section4 .arrow-up {
+    margin-bottom: 15px;
+  }
 }
 
 /* Tablet */
@@ -608,13 +640,16 @@ a:hover,
     height: 100%;
   }
 
-  .hero-image {
-    background-image: url(./assets/sample1.png);
-    background-size: cover;
-    background-position: center;
-    display: block;
+  #header .video-style {
     width: 100%;
-    height: 1024px;
+    height: 100%;
+  }
+
+  #header #my-player {
+    min-width: 768px;
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
   }
 
   #header .navbar {
@@ -922,6 +957,7 @@ a:hover,
     padding-left: 56px;
     padding-right: 56px;
     text-align: left;
+    position: relative;
   }
 
   #section4 .contactTitle {
@@ -1016,6 +1052,30 @@ a:hover,
     letter-spacing: normal;
     color: #df732b;
   }
+
+  #section4 .backButton {
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    margin-bottom: 100px;
+  }
+
+  #section4 .backText {
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 1.17px;
+  }
+
+  #section4 .arrow-up {
+    margin-bottom: 15px;
+  }
 }
 
 /* Desktop */
@@ -1030,13 +1090,16 @@ a:hover,
     height: 100%;
   }
 
-  .hero-image {
-    background-image: url(./assets/sample1.png);
-    background-size: cover;
-    background-position: center;
-    display: block;
+  #header .video-style {
     width: 100%;
-    height: 874px;
+    height: 100%;
+  }
+
+  #header #my-player {
+    min-width: 1024px;
+    width: 100%;
+    min-height: 620px;
+    height: 100%;
   }
 
   #header .navbar {
@@ -1409,5 +1472,9 @@ a:hover,
     line-height: normal;
     letter-spacing: normal;
     color: #df732b;
+  }
+
+  #section4 .backButton {
+    display: none;
   }
 }

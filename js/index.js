@@ -81,3 +81,12 @@ for (let i = 0; i < projectIntroD.length; i++) {
     projectIntroD[i].classList.remove('animated');
   });
 }
+
+// GoTop Action
+$(document).ready(function () {
+  $('.backButton').click(function () {
+    $('html,body').animate({
+      scrollTop: 0
+    }, 1600);
+  });
+});

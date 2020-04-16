@@ -20,6 +20,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
     />
+    <!-- Video -->
+    <link href="//vjs.zencdn.net/7.3.0/video-js.min.css" rel="stylesheet" />
+    <script src="//vjs.zencdn.net/7.3.0/video.min.js"></script>
     <title>Real-Entertainment</title>
   </head>
   <body>
@@ -56,18 +59,33 @@
           </div>
         </div>
       </nav>
-      <div class="hero-image img-responsive">
+      <div class="video-style">
+        <video
+          id="my-player"
+          class="video-js vjs-big-play-centered vjs-fill vjs-fluid 
+          vjs-layout-tiny vjs-layout-x-small vjs-layout-small vjs-layout-medium vjs-layout-large vjs-layout-x-large vjs-layout-huge"
+          preload="auto"
+          controls
+          width="100%"
+          height="100%"
+          poster="//vjs.zencdn.net/v/oceans.png"
+          data-setup="{}"
+        >
+          <source src="./css/assets/video/Showreel.mp4" type="video/mp4"></source>
+        </video>
+      </div>
+      <div class="header-content">
+        <div class="header-text">
+          <p>
+            Real Entertainment is an international company that focuses on film
+            production and digital marketing. The company started in San
+            Francisco and eventually moved to Taiwan 6 years and have since
+            focused on working with clients all over Asia.
+          </p>
+        </div>
         <div class="header-side-bg">
           <div class="header-side-image"></div>
         </div>
-      </div>
-      <div class="header-text">
-        <p>
-          Real Entertainment is an international company that focuses on film
-          production and digital marketing. The company started in San Francisco
-          and eventually moved to Taiwan 6 years and have since focused on
-          working with clients all over Asia.
-        </p>
       </div>
     </div>
 
@@ -471,6 +489,12 @@
             </div>
           </div>
         </div>
+        <div class="backButton">
+          <div class="backText">
+            <img class="arrow-up" src="./css/assets/icon/arrow-up.svg" alt="" />
+            Back
+          </div>
+        </div>
       </div>
     </div>
 
@@ -496,5 +520,6 @@
 
     <script src="js/index.js"></script>
     <script src="js/formSumbit.js"></script>
+    <script src="js/video.js"></script>
   </body>
 </html>
