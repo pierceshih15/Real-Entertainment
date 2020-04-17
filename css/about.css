@@ -1,0 +1,1334 @@
+body {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  min-width: 375px;
+  max-width: 1680px;
+  margin: 0 auto;
+}
+
+a:hover,
+#close:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#section1,
+#section2 {
+  font-family: Montserrat;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+#section2 .header>a {
+  color: #000000 !important;
+}
+
+#section3 .contactTitle {
+  font-weight: 900;
+  color: #000000;
+}
+
+#section3 .contactInfo {
+  color: #000000;
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px) {
+
+  /* Header */
+  #header {
+    position: relative;
+    min-width: 375px;
+    width: 100%;
+    min-height: 427px;
+    height: 100%;
+  }
+
+  #header .video-style {
+    width: 100%;
+    height: 100%;
+  }
+
+  #header #my-player {
+    min-width: 375px;
+    width: 100%;
+    min-height: 350px;
+    padding-top: 40px;
+  }
+
+  #header .navbar {
+    padding: 10px 22px 0px 20px;
+    background-color: #000000;
+    min-width: 375px;
+    width: 100%;
+    min-height: 44px;
+  }
+
+  #header .navbar-toggler {
+    color: #ffffff;
+    background-color: #000000;
+    border: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+  }
+
+  #header .navbar .sideMenu-desktopTablet {
+    display: none;
+  }
+
+  .rotateInUpRight {
+    animation-duration: 2s;
+    animation-delay: 0.25s;
+  }
+
+  .fadeInUp {
+    animation-duration: 3s;
+    animation-delay: 0.75s;
+  }
+
+  .fadeOutDown {
+    animation-duration: 2s;
+    animation-delay: 0.25s;
+  }
+
+  .rotateOutUpLeft {
+    animation-duration: 3s;
+    animation-delay: 1s;
+  }
+
+  #header .navbar-nav {
+    padding: 104px 59px 86px 59px;
+  }
+
+  #header .nav-link {
+    width: 169px;
+    height: 60px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.25;
+    letter-spacing: 2.67px;
+    color: #ffffff;
+  }
+
+  #header .nav-link:nth-child(1),
+  #header .nav-link:nth-child(2) {
+    margin-bottom: 50px;
+  }
+
+  .navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  #header .header-logo {
+    width: 75px;
+    height: 36px;
+  }
+
+  #header .header-logo .mobileTablet {
+    display: inline-block;
+  }
+
+  #header .header-logo .desktop {
+    display: none;
+  }
+
+  #header .header-backgroundImage-mobileTablet {
+    background-image: url(./assets/logo_bg_b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 375px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+  }
+
+  #header .header-backgroundImage-desktop {
+    display: none;
+  }
+
+  #header .header-backgroundImage-mobileTablet .title {
+    position: absolute;
+    left: 0;
+    padding-top: 162px;
+    padding-left: 35px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: 2px;
+    color: #ffffff;
+  }
+
+  #header .header-backgroundImage-mobileTablet .logo {
+    position: absolute;
+    right: 0;
+    padding-top: 262px;
+    padding-right: 12px;
+  }
+
+  #header .header-backgroundImage-mobileTablet .logo>img {
+    width: 188px;
+    height: 80px;
+  }
+
+  #header .header-backgroundImage-mobileTablet .value {
+    position: absolute;
+    left: 0;
+    padding-top: 377px;
+    padding-left: 44px;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+
+  #header .header-description {
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+  }
+
+  #header .header-description .text {
+    width: 320px;
+    width: 100%;
+    padding: 28px 24px 28px 31px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.89px;
+  }
+
+  /* Side Menu */
+  .sideMenu-mobile {
+    display: none;
+  }
+
+  .sideMenu-mobile.show {
+    min-width: 375px;
+    width: calc(100%-118px);
+    height: 100%;
+    padding: 104px 59px 86px 59px;
+    display: block;
+    background: #000000;
+    color: #ffffff;
+  }
+
+  .sideMenu-mobile #close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+
+  .sideMenu-mobile #close .closeIcon {
+    background-image: url(./assets/icon/close.svg);
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+
+  .sideMenu-mobile .linkInfo {
+    text-align: center;
+    margin-bottom: 30px;
+    height: 100%;
+  }
+
+  .sideMenu-mobile .linkInfo>a {
+    display: block;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.25;
+    letter-spacing: 2.67px;
+  }
+
+  .sideMenu-mobile .linkInfo>a:nth-child(1),
+  .sideMenu-mobile .linkInfo>a:nth-child(2) {
+    padding-bottom: 50px;
+  }
+
+  .sideMenu-mobile .contactInfo {
+    width: 425px;
+    margin: 0px auto;
+    margin-top: 244px;
+  }
+
+  .sideMenu-mobile .contactInfo .contactText {
+    display: block;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.67px;
+  }
+
+  /* Mobile Section 1 */
+  #section1 {
+    margin: 41px auto 0px auto;
+  }
+
+  #section1 .mobileTablet {
+    display: block;
+  }
+
+  #section1 .desktop {
+    display: none;
+  }
+
+  #section1 .content {
+    padding: 0px 12px 30px 31px;
+  }
+
+  #section1 .content .title {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.89px;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+
+  #section1 .content .selection {
+    font-family: Georgia;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.14;
+    letter-spacing: 1.17px;
+    color: #000000;
+    margin-bottom: 28px;
+  }
+
+  #section1 .content .description {
+    width: 330px;
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.89px;
+    color: #000000;
+  }
+
+  #section1 .teams {
+    max-width: 767.98px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #section1 .teams .team-photo {
+    background-image: url(./assets/sample3.png);
+    background-size: cover;
+    background-position: center;
+    min-width: 375px;
+    width: 100%;
+    min-height: 300px;
+    height: 100%;
+  }
+
+  #section1 .teams .team-intro {
+    padding: 225px 0px 28px 28px;
+  }
+
+  #section1 .teams .team-intro .team-name {
+    min-width: 122px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.89px;
+    color: #ffffff;
+  }
+
+  #section1 .teams .team-intro .team-title {
+    min-width: 119px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 0.67px;
+    color: #ffffff;
+  }
+
+  /* Mobile Animation */
+  .fadeInUp {
+    animation-duration: 0.75s;
+    animation-delay: 0.25s;
+  }
+
+  .fadeOutDown {
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
+  }
+
+  .team-intro-hover {
+    background-color: rgba(131, 9, 49, 0.65)
+  }
+
+  /* Mobile Section 2 */
+  #section2 {
+    margin: 30px auto 60px auto;
+    padding: 0px 25px;
+  }
+
+  #section2 .title {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: 2px;
+  }
+
+  /* Mobile Section3 */
+  #section3 {
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 31px;
+    padding-right: 19px;
+    text-align: left;
+    position: relative;
+  }
+
+  #section3 .contactTitle {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    line-height: 1.39;
+    letter-spacing: 2px;
+  }
+
+  #section3 .contactInfo {
+    margin-bottom: 41px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.89px;
+  }
+
+  #section3 .formList {
+    max-width: 265px;
+    width: 100%;
+  }
+
+  #section3 .form-placeholder {
+    width: 53px;
+    height: 100%;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.89px;
+  }
+
+  #section3 .form-input-style {
+    border: 0 none;
+    border-radius: 0px;
+    min-width: 265px;
+    max-width: 375px;
+    width: 100%;
+    padding: 16px 6px 16px 6px;
+    border-bottom: 2px #000000 solid;
+    margin-bottom: 7px;
+  }
+
+  #section3 .form-textarea-style {
+    border: 0 none;
+    border-radius: 0px;
+    min-width: 265px;
+    max-width: 375px;
+    width: 100%;
+    height: 200px;
+    padding: 16px 6px 16px 6px;
+    border-bottom: 2px #000000 solid;
+    margin-bottom: 7px;
+  }
+
+  #section3 .user-submit {
+    margin-top: 22.5px;
+  }
+
+  #section3 .submit-button {
+    width: 266px;
+    height: 60px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: 1.17px;
+  }
+
+  #section3 .form-submit-success-content {
+    width: 100%;
+    margin-top: 15px;
+    text-align: left;
+  }
+
+  #section3 .form-submit-success {
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #df732b;
+  }
+
+  #section3 .backButton {
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    bottom: -215px;
+    margin-bottom: 100px;
+  }
+
+  #section3 .backText {
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 1.17px;
+  }
+
+  #section3 .arrow-up {
+    margin-bottom: 15px;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+
+  /* Tablet Header */
+  #header {
+    position: relative;
+    min-width: 768px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 164px;
+  }
+
+  #header .video-style {
+    width: 100%;
+    height: 100%;
+  }
+
+  #header #my-player {
+    min-width: 768px;
+    width: 100%;
+    min-height: 400px;
+    width: 100%;
+  }
+
+  #header .navbar {
+    padding: 15px 61px 0px 53px;
+    flex-flow: row nowrap;
+  }
+
+  #header .navbar-toggler {
+    display: none;
+  }
+
+  #header .fixed-top {
+    position: absolute;
+  }
+
+  #header .navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #header .navbar-nav {
+    flex-direction: row;
+  }
+
+  #header .nav-item {
+    display: inline-block;
+    height: 40px;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.9;
+    letter-spacing: 1.17px;
+    color: #ffffff;
+  }
+
+  #header .nav-item:nth-child(1),
+  #header .nav-item:nth-child(2) {
+    padding-right: 86px;
+  }
+
+  #header .header-logo {
+    width: 165px;
+    height: 78px;
+  }
+
+  #header .header-logo .mobileTablet {
+    display: inline-block;
+  }
+
+  #header .header-logo .desktop {
+    display: none;
+  }
+
+  #header .header-backgroundImage-mobileTablet {
+    background-image: url(./assets/logo_bg_b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 768px;
+    width: 100%;
+    height: 1024px;
+    position: relative;
+  }
+
+  #header .header-backgroundImage-desktop {
+    display: none;
+  }
+
+  #header .header-backgroundImage-mobileTablet .title {
+    position: absolute;
+    left: 0;
+    padding-top: 271px;
+    padding-left: 65px;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: 2px;
+    color: #ffffff;
+  }
+
+  #header .header-backgroundImage-mobileTablet .logo {
+    position: absolute;
+    right: 0;
+    padding-top: 281px;
+    padding-right: 62px;
+  }
+
+  #header .header-backgroundImage-mobileTablet .logo>img {
+    width: 350px;
+    height: 120px;
+  }
+
+  #header .header-backgroundImage-mobileTablet .value {
+    position: absolute;
+    left: 0;
+    padding-top: 590px;
+    padding-left: 65px;
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+
+  #header .header-description {
+    background-color: #000000;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    height: 260px;
+  }
+
+  #header .header-description .text {
+    max-width: 690px;
+    width: 100%;
+    padding: 52px 72px 48px 67px;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: 1.17px;
+  }
+
+  /* Side Menu */
+  .sideMenu-mobile {
+    display: none;
+  }
+
+  /* Tablet Section 1 */
+  #section1 {
+    margin: 64px auto 0px auto;
+  }
+
+  #section1 .mobileTablet {
+    display: block;
+  }
+
+  #section1 .desktop {
+    display: none;
+  }
+
+  #section1 .content {
+    padding: 0px 70px 63px 58px;
+  }
+
+  #section1 .content .title {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 1.17px;
+    color: #000000;
+    margin-bottom: 22px;
+  }
+
+  #section1 .content .selection {
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 0.67;
+    letter-spacing: 2px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+
+  #section1 .content .description {
+    width: 630px;
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: 1.17px;
+    color: #000000;
+  }
+
+  #section1 .teams {
+    width: 100%;
+    max-width: 991.97px;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #section1 .teams .team-photo {
+    background-image: url(./assets/sample3.png);
+    /* background-size: cover;
+    background-position: center; */
+    min-width: 380px;
+    width: 100%;
+    min-height: 300px;
+    height: 100%;
+  }
+
+  #section1 .teams .team-intro {
+    padding: 218px 0px 28px 28px;
+  }
+
+  #section1 .teams .team-intro .team-name {
+    min-width: 160px;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 1.17px;
+    color: #ffffff;
+  }
+
+  #section1 .teams .team-intro .team-title {
+    min-width: 119px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 0.67px;
+    color: #ffffff;
+  }
+
+  /* Tablet Animation */
+  .fadeInUp {
+    animation-duration: 0.75s;
+    animation-delay: 0.25s;
+  }
+
+  .fadeOutDown {
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
+  }
+
+  .team-intro-hover {
+    background-color: rgba(131, 9, 49, 0.65)
+  }
+
+  /* Tablet Section 2 */
+  #section2 {
+    margin: 30px auto 60px auto;
+    padding: 0px 70px 0px 296px;
+  }
+
+  #section2 .title {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 2.67px;
+  }
+
+  /* Tablet Section3 */
+  #section3 {
+    padding-left: 56px;
+    padding-right: 56px;
+    text-align: left;
+    position: relative;
+  }
+
+  #section3 .contactTitle {
+    margin-top: 75px;
+    margin-bottom: 46px;
+    font-size: 48px;
+    line-height: 1.25;
+    letter-spacing: 2.67px;
+  }
+
+  #section3 .contactInfo {
+    margin-bottom: 65px;
+    padding-left: 360px;
+    font-size: 21px;
+    line-height: 1.14;
+    letter-spacing: 1.17px;
+  }
+
+  #section3 .formList {
+    max-width: 768px;
+    width: 100%;
+  }
+
+  #section3 .form-placeholder {
+    width: 53px;
+    height: 100%;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.89px;
+  }
+
+  #section3 .form-input-style {
+    border: 0 none;
+    border-radius: 0px;
+    min-width: 300px;
+    max-width: 360px;
+    width: 100%;
+    padding: 16px 6px 16px 6px;
+    border-bottom: 2px #000000 solid;
+    margin-bottom: 7px;
+  }
+
+  #section3 .form-textarea-style {
+    border: 0 none;
+    border-radius: 0px;
+    min-width: 600px;
+    max-width: 720px;
+    width: 100%;
+    height: 150px;
+    padding: 16px 6px 16px 6px;
+    border-bottom: 2px #000000 solid;
+    margin-bottom: 7px;
+  }
+
+  #section3 .user-submit {
+    margin-top: 30px;
+    margin-bottom: 146px;
+    text-align: right;
+  }
+
+  #section3 .submit-button {
+    width: 206px;
+    height: 52px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: 1.17px;
+  }
+
+  #section3 .form-submit-success-content {
+    width: 100%;
+    margin-top: 15px;
+    text-align: right;
+  }
+
+  #section3 .form-submit-success {
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #df732b;
+  }
+
+  #section3 .backButton {
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    margin-bottom: 100px;
+  }
+
+  #section3 .backText {
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 1.17px;
+  }
+
+  #section3 .arrow-up {
+    margin-bottom: 15px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+
+  /* Desktop Header */
+  #header {
+    position: relative;
+    min-width: 768px;
+    width: 100%;
+    height: 960px;
+    height: 100%;
+    margin-bottom: 300px;
+  }
+
+  #header .video-style {
+    width: 100%;
+    height: 100%;
+  }
+
+  #header #my-player {
+    min-width: 1024px;
+    width: 100%;
+    min-height: 550px;
+    height: 100%;
+  }
+
+  #header .navbar {
+    padding: 27px 65px 0px 32px;
+  }
+
+  #header .fixed-top {
+    position: absolute;
+  }
+
+  #header .navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  #header .navbar-collapse {
+    justify-content: flex-end;
+    padding-bottom: 10px;
+  }
+
+  #header .nav-item {
+    height: 40px;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.9;
+    letter-spacing: 1.17px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  #header .nav-item:nth-child(1),
+  #header .nav-item:nth-child(2) {
+    padding-right: 86px;
+  }
+
+  #header .nav-link {
+    padding-left: 0px;
+  }
+
+  #header .header-logo {
+    width: 165px;
+    height: 78px;
+  }
+
+  #header .header-logo .desktop {
+    display: inline-block;
+  }
+
+  #header .header-logo .mobileTablet {
+    display: none;
+  }
+
+  #header .header-backgroundImage-mobileTablet {
+    display: none;
+  }
+
+  #header .header-backgroundImage-desktop {
+    display: block;
+  }
+
+  #header .header-backgroundImage-desktop .left {
+    padding-top: 276px;
+    padding-left: 115px;
+  }
+
+  #header .header-backgroundImage-desktop .title {
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 3.33px;
+    color: #000000;
+  }
+
+  #header .header-backgroundImage-desktop .value {
+    padding-top: 100px;
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 0.67;
+    letter-spacing: 2px;
+    color: #000000;
+  }
+
+  #header .header-backgroundImage-desktop .right {
+    background-image: url(./assets/logo_bg_b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 500px;
+    width: 100%;
+    height: 787px;
+    position: relative;
+  }
+
+  #header .header-backgroundImage-desktop .logo {
+    position: absolute;
+    right: 0;
+    padding-top: 323px;
+    padding-right: 62px;
+  }
+
+  #header .header-backgroundImage-desktop .logo>img {
+    width: 330px;
+    height: 140px;
+  }
+
+  #header .header-description {
+    background-color: #000000;
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    bottom: -180px;
+    min-height: 260px;
+  }
+
+  #header .header-description .text {
+    max-width: 1024px;
+    padding: 65px 160px 75px 60px;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: 1.17px;
+  }
+
+  /* Side Menu */
+  .sideMenu-mobile {
+    display: none;
+  }
+
+  /* Desktop Section 1 */
+  #section1 {
+    margin: 74px auto 0px auto;
+  }
+
+  #section1 .desktop {
+    display: block;
+  }
+
+  #section1 .mobileTablet {
+    display: none;
+  }
+
+  #section1 .teams {
+    width: 100%;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #section1 .teams .team-photo {
+    background-image: url(./assets/sample3.png);
+    background-repeat: no-repeat;
+    min-width: 330px;
+    width: 100%;
+    min-height: 215px;
+    height: 100%;
+  }
+
+  #section1 .teams .team-intro {
+    padding: 166px 0px 22px 20px;
+  }
+
+  #section1 .teams .team-intro .team-name {
+    min-width: 182px;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 1.17px;
+    color: #ffffff;
+  }
+
+  #section1 .teams .team-intro .team-title {
+    min-width: 150px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 0.67px;
+    color: #ffffff;
+  }
+
+  #section1 .content {
+    padding: 0px 60px 20px 60px;
+  }
+
+  #section1 .content .title {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 1.17px;
+    color: #000000;
+    margin-bottom: 16px;
+  }
+
+  #section1 .content .selection {
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 0.67;
+    letter-spacing: 2px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+
+  #section1 .content .description {
+    width: 565px;
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: 1.17px;
+    color: #000000;
+  }
+
+  /* Tablet Animation */
+  .fadeInUp {
+    animation-duration: 0.75s;
+    animation-delay: 0.25s;
+  }
+
+  .fadeOutDown {
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
+  }
+
+  .team-intro-hover {
+    background-color: rgba(131, 9, 49, 0.65)
+  }
+
+  /* Desktop Section 2 */
+  #section2 {
+    margin: 80px auto 71px auto;
+    padding: 0px 70px 0px 588px;
+  }
+
+  #section2 .title {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 2.67px;
+  }
+
+  /* Desktop Section3 */
+  #section3 {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 218px;
+    padding-right: 114px;
+  }
+
+  #section3 .contactTitle {
+    padding: 0px;
+    font-size: 48px;
+    line-height: 1.25;
+    letter-spacing: 2.67px;
+  }
+
+  #section3 .contactInfo {
+    padding: 0px;
+    margin-top: 47px;
+    font-size: 21px;
+    line-height: 1.14;
+    letter-spacing: 1.17px;
+  }
+
+  #section3 .formList {
+    margin-top: 60px;
+    padding-left: 0px;
+    max-width: 768px;
+    width: 100%;
+  }
+
+  #section3 .form-placeholder {
+    width: 53px;
+    height: 100%;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.89px;
+  }
+
+  #section3 .form-input-style {
+    border: 0 none;
+    border-radius: 0px;
+    min-width: 300px;
+    max-width: 480px;
+    width: 100%;
+    padding: 16px 6px 16px 6px;
+    border-bottom: 2px #000000 solid;
+    margin-bottom: 7px;
+  }
+
+  #section3 .form-textarea-style {
+    border: 0 none;
+    border-radius: 0px;
+    min-width: 300px;
+    max-width: 960px;
+    width: 100%;
+    height: 150px;
+    padding: 16px 6px 16px 6px;
+    border-bottom: 2px #000000 solid;
+    margin-bottom: 7px;
+  }
+
+  #section3 .user-submit {
+    margin-top: 30px;
+    margin-bottom: 114px;
+    text-align: right;
+  }
+
+  #section3 .submit-button {
+    width: 206px;
+    height: 52px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: 1.17px;
+  }
+
+  #section3 .form-submit-success-content {
+    width: 100%;
+    margin-top: 15px;
+    text-align: right;
+  }
+
+  #section3 .form-submit-success {
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #df732b;
+  }
+
+  #section3 .backButton {
+    display: none;
+  }
+}

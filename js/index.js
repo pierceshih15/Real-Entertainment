@@ -6,6 +6,15 @@ const mobileAbout = document.querySelector('.mobileAbout');
 const mobileProject = document.querySelector('.mobileProject');
 const contactInfo = document.querySelector('.contactInfo');
 
+// GoTop Action
+$(document).ready(function () {
+  $('.backButton').click(function () {
+    $('html,body').animate({
+      scrollTop: 0
+    }, 1600);
+  });
+});
+
 // 點擊開啟動畫
 open.addEventListener('click', function () {
   element.classList.remove('show');
@@ -81,12 +90,3 @@ for (let i = 0; i < projectIntroD.length; i++) {
     projectIntroD[i].classList.remove('animated');
   });
 }
-
-// GoTop Action
-$(document).ready(function () {
-  $('.backButton').click(function () {
-    $('html,body').animate({
-      scrollTop: 0
-    }, 1600);
-  });
-});
