@@ -113,7 +113,7 @@ a:hover,
     min-width: 375px;
     width: 100%;
     min-height: 350px;
-    height: 100%;
+    padding-top: 40px;
   }
 
   #header .navbar {
@@ -131,10 +131,6 @@ a:hover,
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 10px;
-  }
-
-  #header .navbar-light .navbar-toggler-icon {
-    background-image: url(./assets/icon/menu.svg);
   }
 
   #header .navbar .sideMenu-desktopTablet {
@@ -648,12 +644,12 @@ a:hover,
   #header #my-player {
     min-width: 768px;
     width: 100%;
-    min-height: 500px;
-    height: 100%;
+    min-height: 400px;
+    width: 100%;
   }
 
   #header .navbar {
-    padding: 31px 61px 0px 53px;
+    padding: 15px 61px 0px 53px;
     flex-flow: row nowrap;
   }
 
@@ -668,7 +664,6 @@ a:hover,
   #header .navbar-collapse {
     display: flex;
     justify-content: flex-end;
-    padding-bottom: 20px;
   }
 
   #header .navbar-nav {
@@ -690,9 +685,14 @@ a:hover,
     padding-right: 86px;
   }
 
-  .header-logo {
+  #header .header-logo {
+    width: 100%;
+    height: 100%;
+  }
+
+  #header .header-logo>img {
     width: 164px;
-    height: 78px;
+    max-height: 48px;
   }
 
   .header-side-bg {
@@ -1098,7 +1098,7 @@ a:hover,
   #header #my-player {
     min-width: 1024px;
     width: 100%;
-    min-height: 620px;
+    min-height: 550px;
     height: 100%;
   }
 
