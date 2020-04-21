@@ -8,36 +8,279 @@
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/project.css" />
+    <!-- Animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <!-- Video -->
+    <link href="//vjs.zencdn.net/7.3.0/video-js.min.css" rel="stylesheet" />
+    <script src="//vjs.zencdn.net/7.3.0/video.min.js"></script>
     <title>Real-Entertainment</title>
   </head>
   <body>
-    <h1>ProjectPage</h1>
+    <!-- #Header -->
+    <div id="header">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="/index.html">
+          <div class="header-logo">
+            <img
+              src="./css/assets/logo-2.svg"
+              class="d-inline-block align-top img-fluid"
+              alt="LOGO"
+            />
+          </div>
+        </a>
+        <img
+          src="./css/assets/icon/menu.svg"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          id="navbarButton"
+        >
+        <!-- SideMenu-desktopTablet -->
+        <div class="sideMenu-desktopTablet collapse navbar-collapse">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link py-0" href="/about.html">About</a>
+            <a class="nav-item nav-link py-0" href="/projects.html">Project</a>
+            <a class="nav-item nav-link py-0" href="#section4">Contact</a>
+          </div>
+        </div>
+      </nav>
+      <div class="video-style">
+        <video
+          id="my-player"
+          class="video-js vjs-big-play-centered vjs-fill vjs-fluid 
+          vjs-layout-tiny vjs-layout-x-small vjs-layout-small vjs-layout-medium vjs-layout-large vjs-layout-x-large vjs-layout-huge"
+          preload="auto"
+          controls
+          width="100%"
+          height="100%"
+          poster="//vjs.zencdn.net/v/oceans.png"
+          data-setup="{}"
+        >
+          <source src="./css/assets/video/Showreel.mp4" type="video/mp4"></source>
+        </video>
+      </div>
+    </div>
+
+    <!-- SideMenu-mobile -->
+    <nav
+      class="sideMenu-mobile navbar navbar-expand-lg fixed-top"
+      id="navbarNavAltMarkup"
+    >
+      <div id="close">
+        <div class="closeIcon"></div>
+      </div>
+      <div class="navbar-collapse offcanvas-collapse">
+        <div class="linkInfo">
+          <a class="mobileHome" href="/inedex.html">HOME</a>
+          <a class="mobileAbout" href="/about.html">ABOUT</a>
+          <a class="mobileProject" href="/projects.html">PROJECT</a>
+        </div>
+        <div class="contactInfo">
+          <div class="contactText pb-3">
+            <img
+              src="./css/assets/icon/location-white.svg"
+              class="pr-2"
+              alt="location"
+            />
+            0100 Carter Mall Apt. 466
+          </div>
+          <div class="contactText pb-3">
+            <img
+              src="./css/assets/icon/mobile-white.svg"
+              class="pr-2"
+              alt="phone"
+            />
+            420-048-8958
+          </div>
+          <div class="contactText pb-3">
+            <img
+              src="./css/assets/icon/mail-white.svg"
+              class="pr-2"
+              alt="email"
+            />
+            info@realent.co
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- PROJECTS -->
+    <div id="section1">
+       <div class="projects">
+          <div class="row mx-0">
+            <!-- 第一個專案 -->
+            <div class="col-12 col-lg-4 px-0">
+              <div class="project-photo">
+                <div class="project-intro">
+                  <span class="project-name">WR-7 Commercial</span>
+                  <span class="project-client">Sangean</span>
+                </div>
+              </div>
+            </div>
+            <!-- 第二個專案 -->
+            <div class="col-12 col-lg-4 px-0">
+              <div class="project-photo">
+                <div class="project-intro">
+                  <span class="project-name">Brand Commercial</span>
+                  <span class="project-client">Golden Sound</span>
+                </div>
+              </div>
+            </div>
+            <!-- 第三個專案 -->
+            <div class="col-12 col-lg-4 px-0">
+              <div class="project-photo">
+                <div class="project-intro">
+                  <span class="project-name">WR-7 Commercial</span>
+                  <span class="project-client">Sangean</span>
+                </div>
+              </div>
+            </div>
+            <!-- 第四個專案 -->
+            <div class="col-12 col-lg-4 px-0">
+              <div class="project-photo">
+                <div class="project-intro">
+                  <span class="project-name">WR-7 Commercial</span>
+                  <span class="project-client">Sangean</span>
+                </div>
+              </div>
+            </div>
+            <!-- 第五個專案 -->
+            <div class="col-12 col-lg-4 px-0">
+              <div class="project-photo">
+                <div class="project-intro">
+                  <span class="project-name">WR-7 Commercial</span>
+                  <span class="project-client">Sangean</span>
+                </div>
+              </div>
+            </div>
+            <!-- 第六個專案 -->
+            <div class="col-12 col-lg-4 px-0">
+              <div class="project-photo">
+                <div class="project-intro">
+                  <span class="project-name">WR-7 Commercial</span>
+                  <span class="project-client">Sangean</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="section2">
+      <div class="row">
+        <!-- Title -->
+        <div class="contactTitle col-lg-6">
+          <div>JOIN</div>
+          <div>OUR</div>
+          <div>JOURNEY</div>
+        </div>
+        <!-- Contact -->
+        <div class="contactInfo col-lg-6">
+          <div class="pb-3">
+            <img src="https://fakeimg.pl/20x20" class="pr-2" alt="location" />
+            0100 Carter Mall Apt. 466
+          </div>
+          <div class="pb-3">
+            <img src="https://fakeimg.pl/20x20" class="pr-2" alt="phone" />
+            420-048-8958
+          </div>
+          <div class="pb-3">
+            <img src="https://fakeimg.pl/20x20" class="pr-2" alt="email" />
+            info@realent.co
+          </div>
+        </div>
+        <!-- Form -->
+        <div class="formList col-md-12 col-lg-12">
+          <div class="row">
+            <div class="user-name col-md-6 col-lg-6">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-input-style form-placeholder"
+                placeholder="Name"
+              />
+            </div>
+            <div class="user-email col-md-6 col-lg-6">
+              <input
+                type="text"
+                id="email"
+                name="email"
+                class="form-input-style form-placeholder"
+                placeholder="Email"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="user-message col-md-12 col-lg-12">
+              <textarea
+                name="textarea"
+                id="textarea"
+                name="textarea"
+                class="form-textarea-style form-placeholder"
+                placeholder="Message"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="user-submit col-md-12 col-lg-12">
+              <button type="submit" class="submit-button">
+                Send
+              </button>
+              <div class="form-submit-success-content d-none">
+                <div class="form-submit-success">
+                  We will contact you as soon as possible!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="backButton">
+          <div class="backText">
+            <img class="arrow-up" src="./css/assets/icon/arrow-up.svg" alt="" />
+            Back
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+    <script src="js/index.js"></script>
+    <script src="js/formSumbit.js"></script>
+    <script src="js/video.js"></script>
+    <script src="js/projectPage.js"></script>
   </body>
 </html>
