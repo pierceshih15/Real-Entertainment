@@ -55,10 +55,9 @@ a:hover,
 }
 
 #section1 .team-intro .button-seeMore {
-  width: 240px;
-  height: 60px;
-  padding: 9px 12px 11px 24px;
-  text-align: left;
+  width: 220px;
+  height: 50px;
+  padding: 5px 12px 5px 24px;
   border: solid 1px #ffffff;
   font-size: 21px;
   font-weight: 500;
@@ -73,7 +72,7 @@ a:hover,
 #section1 .button-seeMore .arrow-right-icon {
   margin-left: 10px;
   padding-bottom: 3px;
-  width: 68.4px;
+  width: 38.4px;
   height: 16.1px;
 }
 
@@ -129,7 +128,7 @@ a:hover,
     background-color: #000000;
     border: 0px;
     padding-top: 0px;
-    padding-right: 0px;
+    padding-right: 12px;
     padding-bottom: 10px;
   }
 
@@ -204,7 +203,7 @@ a:hover,
   }
 
   .header-text>p {
-    padding: 28px 137px 28px 31px;
+    padding: 0px 110px 30px 30px;
     margin: 0px;
   }
 
@@ -360,11 +359,6 @@ a:hover,
     margin: 0px auto;
   }
 
-  #section2 .team-mb {
-    width: 100%;
-    margin: 0 auto;
-  }
-
   #section2 .team-mb-photo {
     background-image: url(./assets/sample2.png);
     background-size: cover;
@@ -374,14 +368,16 @@ a:hover,
   }
 
   #section2 .team-mb-intro {
-    padding: 26px 25px 38px 25px;
     width: 100%;
-    text-align: center;
+    min-width: 187px;
+    margin: 0 auto;
+    padding: 20px 0px 38px 0px;
   }
 
   #section2 .team-mb-name {
-    display: block;
-    width: 100%;
+    width: 160px;
+    margin: 0 auto;
+    text-align: center;
     height: 24px;
     font-size: 16px;
     font-weight: 900;
@@ -390,8 +386,9 @@ a:hover,
   }
 
   #section2 .team-mb-title {
-    display: block;
-    width: 100%;
+    width: 180px;
+    margin: 6px auto 0px auto;
+    text-align: center;
     height: 24px;
     font-size: 10px;
     font-weight: 900;
@@ -465,18 +462,52 @@ a:hover,
     padding: 171px 136px 29px 36px;
   }
 
+  /* Mobile Animation */
   .fadeInUp {
     animation-duration: 0.75s;
     animation-delay: 0.25s;
+    animation-name: myMoveIn !important;
+  }
+
+  @keyframes myMoveIn {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 25%, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
   }
 
   .fadeOutDown {
     animation-duration: 0.5s;
     animation-delay: 0.1s;
+    animation-name: myMoveOut !important;
+  }
+
+  @keyframes myMoveOut {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 25%, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .slideInUp {
+    animation-duration: 1.25s;
+    animation-delay: 0.15s;
   }
 
   .project-intro-hover {
     background-color: rgba(9, 75, 131, 0.8);
+    width: 100%;
+    height: 100%;
   }
 
   #section3 .projects .project-intro .project-name {
@@ -695,12 +726,18 @@ a:hover,
     max-height: 48px;
   }
 
+  #header .header-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
   .header-side-bg {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 245px;
-    height: 220px;
+    width: 246px;
+    height: 175px;
   }
 
   .header-side-image {
@@ -715,12 +752,13 @@ a:hover,
   .header-text {
     background-color: #000000;
     width: 100%;
-    padding: 22px 19px 17px 130px;
     color: #ffffff;
   }
 
   .header-text>p {
-    width: 330px;
+    width: 522px;
+    padding: 22px 19px 33px 130px;
+    margin-bottom: 0px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -761,6 +799,7 @@ a:hover,
   #section1 .logo {
     background-image: url(./assets/logo-1.svg);
     min-width: 161px;
+    padding-top: 110px;
     height: 62px;
     position: absolute;
     z-index: 30;
@@ -801,13 +840,13 @@ a:hover,
 
   #section2 .title {
     padding: 0px 144px 42px 31px;
+    font-size: 48pt;
+    font-weight: 900 !important;
   }
 
   #section2>h1 {
     width: 200px;
     height: 120px;
-    font-size: 48px;
-    font-weight: 900;
     line-height: 1.25;
     letter-spacing: 2.67px;
   }
@@ -816,19 +855,21 @@ a:hover,
     background-image: url(./assets/sample2.png);
     background-size: cover;
     background-position: center;
-    width: 100%;
-    min-width: 200px;
+    width: 200px;
     height: 200px;
   }
 
   #section2 .team-mb-intro {
-    padding: 26px 25px 38px 25px;
-    text-align: center;
+    width: 100%;
+    min-width: 200px;
+    margin: 0 auto;
+    padding: 20px 0px 38px 0px;
   }
 
   #section2 .team-mb-name {
-    display: block;
-    width: 100%;
+    width: 160px;
+    margin: 0 auto;
+    text-align: center;
     height: 24px;
     font-size: 16px;
     font-weight: 900;
@@ -837,11 +878,12 @@ a:hover,
   }
 
   #section2 .team-mb-title {
-    display: block;
-    width: 100%;
+    width: 180px;
+    margin: 6px auto 0px auto;
+    text-align: center;
     height: 24px;
     font-size: 10px;
-    font-weight: 900;
+    font-weight: 500 !important;
     line-height: 2;
     letter-spacing: 0.67px;
   }
@@ -872,7 +914,7 @@ a:hover,
   #section3 .section3-mobileTablet .title>h1 {
     height: 40px;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 500 !important;
     line-height: 1.11;
     letter-spacing: 2px;
   }
@@ -916,25 +958,59 @@ a:hover,
     padding: 436px 136px 29px 36px;
   }
 
+  /* Tablet Animation */
   .fadeInUp {
     animation-duration: 0.75s;
     animation-delay: 0.25s;
+    animation-name: myMoveIn !important;
+  }
+
+  @keyframes myMoveIn {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 25%, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
   }
 
   .fadeOutDown {
     animation-duration: 0.5s;
     animation-delay: 0.1s;
+    animation-name: myMoveOut !important;
+  }
+
+  @keyframes myMoveOut {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 25%, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .slideInUp {
+    animation-duration: 1.25s;
+    animation-delay: 0.15s;
   }
 
   .project-intro-hover {
     background-color: rgba(9, 75, 131, 0.8);
+    width: 100%;
+    height: 100%;
   }
 
   #section3 .projects .project-intro .project-name {
     display: block;
     width: 203px;
     height: 24px;
-    font-size: 16px;
+    font-size: 21px;
     font-weight: 900;
     line-height: 1.5;
     letter-spacing: 0.89px;
@@ -945,8 +1021,8 @@ a:hover,
     display: block;
     width: 203px;
     height: 24px;
-    font-size: 16px;
-    font-weight: 900;
+    font-size: 12px;
+    font-weight: 600;
     line-height: 1.5;
     letter-spacing: 0.89px;
     color: #ffffff;
@@ -1139,10 +1215,18 @@ a:hover,
     height: 66px;
   }
 
+  #header .header-content {
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    height: 256px;
+    position: relative;
+  }
+
   .header-text {
     background-color: #000000;
     width: 100%;
-    padding: 48px 37px 49px 130px;
+    padding: 0px 37px 0px 185px;
     color: #ffffff;
   }
 
@@ -1159,7 +1243,7 @@ a:hover,
     right: 0;
     bottom: 0px;
     width: 256px;
-    height: 346px;
+    height: 256px;
   }
 
   .header-side-image {
@@ -1179,15 +1263,14 @@ a:hover,
   /* Desktop Section 1 */
   #section1 {
     position: relative;
-    height: 620px;
-    margin-bottom: 103px;
+    height: 530px;
   }
 
   #section1 .logo-backgroundImage {
     background-image: url(./assets/logo_bg_b.png);
     background-size: cover;
-    min-width: 900px;
-    height: 670px;
+    min-width: 930px;
+    height: 530px;
     position: absolute;
     right: 0px;
   }
@@ -1199,27 +1282,36 @@ a:hover,
   }
 
   #section1 .team-intro {
-    min-width: 750px;
-    padding: 94px 54px 48px 119px;
+    min-width: 896px;
+    height: 352px;
     position: absolute;
     top: 74px;
     right: 395px;
     left: 0px;
   }
 
+  #section1 .team-intro .team-intro-title:nth-child(1) {
+    padding: 53px 0px 0px 95px;
+  }
+
+  #section1 .team-intro .team-intro-title:nth-child(2) {
+    padding: 0px 0px 17px 95px;
+  }
+
   #section1 .team-intro .team-intro-content {
-    padding-left: 126px;
-    width: 490px;
+    width: 420px;
+    margin-left: 175px;
     font-size: 21px;
     font-weight: 500;
     line-height: 1.9;
     letter-spacing: 1.17px;
+    position: relative;
   }
 
   #section1 .team-intro .button-seeMore {
-    margin-top: 8px;
-    margin-bottom: 48px;
-    margin-left: 453px;
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
   }
 
   /* Desktop Section 2 */
@@ -1235,9 +1327,7 @@ a:hover,
   }
 
   #section2 .team-mb {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0px 20px;
+    width: 172px;
   }
 
   #section2 .team-mb-photo {
@@ -1250,16 +1340,18 @@ a:hover,
   }
 
   #section2 .team-mb-intro {
-    min-width: 172px;
     width: 100%;
-    padding: 26px 0px 38px 0px;
-    text-align: center;
+    min-width: 172px;
+    margin: 0 auto;
+    padding: 20px 0px 38px 0px;
   }
 
   #section2 .team-mb-name {
-    display: block;
     width: 100%;
-    height: 24px;
+    min-width: 172px;
+    margin: 0 auto;
+    text-align: center;
+    height: 14px;
     font-size: 21px;
     font-weight: 900;
     line-height: 1.14;
@@ -1267,11 +1359,13 @@ a:hover,
   }
 
   #section2 .team-mb-title {
-    display: block;
     width: 100%;
+    min-width: 172px;
     height: 21px;
+    margin: 12px auto 0px auto;
+    text-align: center;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 300;
     line-height: 1.5;
     letter-spacing: 0.89px;
   }
@@ -1281,7 +1375,7 @@ a:hover,
     display: block;
     margin-top: 75px;
     margin-bottom: 282px;
-    padding-left: 59px;
+    padding-left: 40px;
   }
 
   #section3 .section3-mobileTablet {
@@ -1303,14 +1397,14 @@ a:hover,
   }
 
   #section3 .section3-desktop .button-viewAll {
-    width: 206px;
-    margin-left: 42px;
-    padding: 20px 12px 20px 24px;
+    width: 220px;
+    height: 50px;
+    margin-left: 20px;
+    padding: 5px 12px 5px 24px;
     border: solid 1px #000000;
   }
 
   #section3 .section3-desktop .button-viewAll a {
-    height: 52px;
     color: #000000;
     font-size: 21px;
     font-weight: 500;
@@ -1326,7 +1420,7 @@ a:hover,
     background-image: url(./assets/sample3.png);
     background-size: cover;
     background-position: center;
-    min-width: 330px;
+    min-width: 328px;
     width: 100%;
     min-height: 205px;
     height: 100%;
@@ -1336,18 +1430,52 @@ a:hover,
     padding: 137px 200px 16px 19px;
   }
 
+  /* Desktop Animation */
   .fadeInUp {
     animation-duration: 0.75s;
     animation-delay: 0.25s;
+    animation-name: myMoveIn !important;
+  }
+
+  @keyframes myMoveIn {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 25%, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
   }
 
   .fadeOutDown {
     animation-duration: 0.5s;
     animation-delay: 0.1s;
+    animation-name: myMoveOut !important;
+  }
+
+  @keyframes myMoveOut {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 25%, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .slideInUp {
+    animation-duration: 1.25s;
+    animation-delay: 0.15s;
   }
 
   .project-intro-hover {
     background-color: rgba(9, 75, 131, 0.8);
+    width: 100%;
+    height: 100%;
   }
 
   #section3 .projects .project-intro .project-name {
@@ -1366,7 +1494,7 @@ a:hover,
     width: 203px;
     height: 24px;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 300;
     line-height: 1.5;
     letter-spacing: 0.89px;
     color: #ffffff;

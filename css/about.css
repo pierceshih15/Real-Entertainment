@@ -21,7 +21,7 @@ a:hover,
   font-style: normal;
 }
 
-#section2 .header > a {
+#section2 .header>a {
   color: #000000 !important;
 }
 
@@ -36,6 +36,7 @@ a:hover,
 
 /* Mobile */
 @media screen and (max-width: 767.98px) {
+
   /* Header */
   #header {
     position: relative;
@@ -91,6 +92,11 @@ a:hover,
   .fadeOutDown {
     animation-duration: 2s;
     animation-delay: 0.25s;
+  }
+
+  .slideInUp {
+    animation-duration: 1.25s;
+    animation-delay: 0.15s;
   }
 
   .rotateOutUpLeft {
@@ -171,7 +177,7 @@ a:hover,
     padding-right: 12px;
   }
 
-  #header .header-backgroundImage-mobileTablet .logo > img {
+  #header .header-backgroundImage-mobileTablet .logo>img {
     width: 188px;
     height: 80px;
   }
@@ -203,7 +209,7 @@ a:hover,
     width: 100%;
     padding: 28px 24px 28px 31px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.5;
     letter-spacing: 0.89px;
   }
@@ -242,7 +248,7 @@ a:hover,
     height: 100%;
   }
 
-  .sideMenu-mobile .linkInfo > a {
+  .sideMenu-mobile .linkInfo>a {
     display: block;
     color: #ffffff;
     font-size: 48px;
@@ -251,8 +257,8 @@ a:hover,
     letter-spacing: 2.67px;
   }
 
-  .sideMenu-mobile .linkInfo > a:nth-child(1),
-  .sideMenu-mobile .linkInfo > a:nth-child(2) {
+  .sideMenu-mobile .linkInfo>a:nth-child(1),
+  .sideMenu-mobile .linkInfo>a:nth-child(2) {
     padding-bottom: 50px;
   }
 
@@ -289,7 +295,7 @@ a:hover,
   #section1 .content .title {
     font-family: Montserrat;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 600;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.5;
@@ -371,11 +377,42 @@ a:hover,
   .fadeInUp {
     animation-duration: 0.75s;
     animation-delay: 0.25s;
+    animation-name: myMoveIn !important;
+  }
+
+  @keyframes myMoveIn {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 25%, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
   }
 
   .fadeOutDown {
     animation-duration: 0.5s;
     animation-delay: 0.1s;
+    animation-name: myMoveOut !important;
+  }
+
+  @keyframes myMoveOut {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 25%, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .slideInUp {
+    animation-duration: 1.25s;
+    animation-delay: 0.15s;
   }
 
   .team-intro-hover {
@@ -527,6 +564,7 @@ a:hover,
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
+
   /* Tablet Header */
   #header {
     position: relative;
@@ -634,7 +672,7 @@ a:hover,
     padding-right: 62px;
   }
 
-  #header .header-backgroundImage-mobileTablet .logo > img {
+  #header .header-backgroundImage-mobileTablet .logo>img {
     width: 350px;
     height: 120px;
   }
@@ -668,7 +706,7 @@ a:hover,
     width: 100%;
     padding: 52px 72px 48px 67px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.9;
@@ -700,7 +738,7 @@ a:hover,
   #section1 .content .title {
     font-family: Montserrat;
     font-size: 21px;
-    font-weight: 900;
+    font-weight: 600;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.14;
@@ -784,11 +822,42 @@ a:hover,
   .fadeInUp {
     animation-duration: 0.75s;
     animation-delay: 0.25s;
+    animation-name: myMoveIn !important;
+  }
+
+  @keyframes myMoveIn {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 25%, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
   }
 
   .fadeOutDown {
     animation-duration: 0.5s;
     animation-delay: 0.1s;
+    animation-name: myMoveOut !important;
+  }
+
+  @keyframes myMoveOut {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 25%, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .slideInUp {
+    animation-duration: 1.25s;
+    animation-delay: 0.15s;
   }
 
   .team-intro-hover {
@@ -803,6 +872,7 @@ a:hover,
   }
 
   #section2 .title {
+    width: 100%;
     font-family: Montserrat;
     font-size: 48px;
     font-weight: 900;
@@ -940,6 +1010,7 @@ a:hover,
 
 /* Desktop */
 @media screen and (min-width: 992px) {
+
   /* Desktop Header */
   #header {
     position: relative;
@@ -1062,10 +1133,10 @@ a:hover,
     position: absolute;
     right: 0;
     padding-top: 323px;
-    padding-right: 62px;
+    padding-right: 90px;
   }
 
-  #header .header-backgroundImage-desktop .logo > img {
+  #header .header-backgroundImage-desktop .logo>img {
     width: 330px;
     height: 140px;
   }
@@ -1081,10 +1152,10 @@ a:hover,
 
   #header .header-description .text {
     max-width: 1024px;
-    padding: 65px 160px 75px 60px;
+    padding: 65px 160px 75px 114px;
     font-family: Montserrat;
     font-size: 21px;
-    font-weight: 500;
+    font-weight: 600;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.9;
@@ -1119,14 +1190,13 @@ a:hover,
   #section1 .teams .team-photo {
     background-image: url(./assets/sample3.png);
     background-repeat: no-repeat;
-    min-width: 330px;
+    min-width: 340px;
     width: 100%;
-    min-height: 215px;
-    height: 100%;
+    height: 215px;
   }
 
   #section1 .teams .team-intro {
-    padding: 166px 0px 22px 20px;
+    padding: 142px 0px 22px 20px;
   }
 
   #section1 .teams .team-intro .team-name {
@@ -1154,6 +1224,7 @@ a:hover,
   }
 
   #section1 .content {
+    height: 213px;
     padding: 0px 60px 20px 60px;
   }
 
@@ -1182,11 +1253,11 @@ a:hover,
   }
 
   #section1 .content .description {
-    width: 565px;
+    min-width: 565px;
     width: 100%;
     font-family: Montserrat;
     font-size: 21px;
-    font-weight: 500;
+    font-weight: 600;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.9;
@@ -1194,26 +1265,57 @@ a:hover,
     color: #000000;
   }
 
-  /* Tablet Animation */
+  /* Desktop Animation */
   .fadeInUp {
     animation-duration: 0.75s;
     animation-delay: 0.25s;
+    animation-name: myMoveIn !important;
+  }
+
+  @keyframes myMoveIn {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 25%, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
   }
 
   .fadeOutDown {
     animation-duration: 0.5s;
     animation-delay: 0.1s;
+    animation-name: myMoveOut !important;
+  }
+
+  @keyframes myMoveOut {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 25%, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .slideInUp {
+    animation-duration: 1.25s;
+    animation-delay: 0.15s;
   }
 
   .team-intro-hover {
-    height: 269px;
     background-color: rgba(131, 9, 49, 0.65);
+    height: 211px;
   }
 
   /* Desktop Section 2 */
   #section2 {
     margin: 80px auto 71px auto;
-    padding: 0px 70px 0px 588px;
+    padding: 0px 30px 0px 588px;
   }
 
   #section2 .title {

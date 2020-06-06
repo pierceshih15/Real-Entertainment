@@ -28,6 +28,7 @@ const teamsIntroD = teamsD.querySelectorAll('.team-intro');
 for (let i = 0; i < teamsIntroD.length; i++) {
   teamsPhotoD[i].addEventListener('mouseover', function () {
     teamsIntroD[i].classList.remove('fadeInUp');
+    teamsIntroD[i].classList.remove('slideInUp');
     teamsIntroD[i].classList.remove('fadeOutDown');
     teamsIntroD[i].classList.add('team-intro-hover');
     teamsIntroD[i].classList.add('animated', 'fadeInUp');
@@ -39,5 +40,6 @@ for (let i = 0; i < teamsIntroD.length; i++) {
     teamsIntroD[i].classList.add('animated', 'fadeOutDown');
     teamsIntroD[i].classList.remove('team-intro-hover');
     teamsIntroD[i].classList.remove('animated');
+    teamsIntroD[i].classList.add('slideInUp');
   });
 }

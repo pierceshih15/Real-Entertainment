@@ -6,6 +6,7 @@ const projectIntroMT = projectsMT.querySelectorAll('.project-intro');
 for (let i = 0; i < projectIntroMT.length; i++) {
   projectPhotoMT[i].addEventListener('mouseover', function () {
     projectIntroMT[i].classList.remove('fadeInUp');
+    projectIntroMT[i].classList.remove('slideInUp');
     projectIntroMT[i].classList.remove('fadeOutDown');
     projectIntroMT[i].classList.add('project-intro-hover');
     projectIntroMT[i].classList.add('animated', 'fadeInUp');
@@ -17,6 +18,7 @@ for (let i = 0; i < projectIntroMT.length; i++) {
     projectIntroMT[i].classList.add('animated', 'fadeOutDown');
     projectIntroMT[i].classList.remove('project-intro-hover');
     projectIntroMT[i].classList.remove('animated');
+    projectIntroMT[i].classList.add('slideInUp');
   });
 }
 
