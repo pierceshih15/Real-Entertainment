@@ -312,7 +312,7 @@ a:hover,
     width: 203px;
     height: 24px;
     font-size: 12px;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 1.5;
     letter-spacing: 0.89px;
     color: #ffffff;
@@ -633,7 +633,7 @@ a:hover,
     display: block;
     width: 203px;
     height: 24px;
-    font-size: 16px;
+    font-size: 21px;
     font-weight: 900;
     line-height: 1.5;
     letter-spacing: 0.89px;
@@ -644,8 +644,9 @@ a:hover,
     display: block;
     width: 203px;
     height: 24px;
-    font-size: 16px;
-    font-weight: 900;
+    margin-top: 6px;
+    font-size: 12px;
+    font-weight: 600;
     line-height: 1.5;
     letter-spacing: 0.89px;
     color: #ffffff;
@@ -655,12 +656,14 @@ a:hover,
   #section2 {
     padding-left: 56px;
     padding-right: 56px;
+    margin-top: 75px;
     text-align: left;
     position: relative;
   }
 
   #section2 .contactTitle {
-    margin-top: 75px;
+    display: inline-block;
+    width: 340px;
     margin-bottom: 46px;
     font-size: 48px;
     line-height: 1.25;
@@ -668,10 +671,11 @@ a:hover,
   }
 
   #section2 .contactInfo {
+    display: inline-block;
+    width: 340px;
     margin-bottom: 65px;
-    padding-left: 360px;
     font-size: 21px;
-    line-height: 1.14;
+    line-height: 1.5;
     letter-spacing: 1.17px;
   }
 
@@ -809,7 +813,7 @@ a:hover,
     right: 0;
     color: #ffffff;
     padding-right: 18px;
-    padding-bottom: 12px;
+    padding-bottom: 25px;
   }
 
   #header .video-style .paginate .current {
@@ -834,7 +838,7 @@ a:hover,
 
   #header .video-style .paginate .arrow-right-icon {
     border: solid 1px #ffffff;
-    margin-left: 16px;
+    margin-left: 25px;
     padding: 5px 10px;
     width: 60px;
     height: 40px;
@@ -955,7 +959,7 @@ a:hover,
     display: block;
     width: 203px;
     height: 24px;
-    font-size: 16px;
+    font-size: 21px;
     font-weight: 900;
     line-height: 1.5;
     letter-spacing: 0.89px;
@@ -966,8 +970,9 @@ a:hover,
     display: block;
     width: 203px;
     height: 24px;
-    font-size: 16px;
-    font-weight: 900;
+    margin-top: 6px;
+    font-size: 12px;
+    font-weight: 600;
     line-height: 1.5;
     letter-spacing: 0.89px;
     color: #ffffff;
@@ -990,7 +995,6 @@ a:hover,
 
   #section2 .contactInfo {
     padding: 0px;
-    margin-top: 47px;
     font-size: 21px;
     line-height: 1.14;
     letter-spacing: 1.17px;

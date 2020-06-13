@@ -339,9 +339,9 @@ a:hover,
     padding: 0px 144px 42px 31px;
   }
 
-  #section2>h1 {
+  #section2 .title .title-style {
     width: 200px;
-    height: 80px;
+    height: 50px;
     font-size: 36px;
     font-weight: 900;
     line-height: 1.11;
@@ -391,7 +391,7 @@ a:hover,
     text-align: center;
     height: 24px;
     font-size: 10px;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 2;
     letter-spacing: 0.67px;
   }
@@ -421,7 +421,7 @@ a:hover,
     width: 325px;
     height: 40px;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 900 !important;
     line-height: 1.11;
     letter-spacing: 2px;
   }
@@ -757,7 +757,7 @@ a:hover,
 
   .header-text>p {
     width: 522px;
-    padding: 22px 19px 33px 130px;
+    padding: 22px 19px 33px 25px;
     margin-bottom: 0px;
     font-size: 16px;
     font-weight: 500;
@@ -883,7 +883,7 @@ a:hover,
     text-align: center;
     height: 24px;
     font-size: 10px;
-    font-weight: 500 !important;
+    font-weight: 600;
     line-height: 2;
     letter-spacing: 0.67px;
   }
@@ -907,7 +907,7 @@ a:hover,
 
   #section3 .section3-mobileTablet .title {
     display: inline-block;
-    width: 325px;
+    width: 430px;
     margin-bottom: 40px;
   }
 
@@ -1032,12 +1032,14 @@ a:hover,
   #section4 {
     padding-left: 56px;
     padding-right: 56px;
+    margin-top: 75px;
     text-align: left;
     position: relative;
   }
 
   #section4 .contactTitle {
-    margin-top: 75px;
+    display: inline-block;
+    width: 340px;
     margin-bottom: 46px;
     font-size: 48px;
     line-height: 1.25;
@@ -1045,10 +1047,11 @@ a:hover,
   }
 
   #section4 .contactInfo {
+    display: inline-block;
+    width: 340px;
     margin-bottom: 65px;
-    padding-left: 360px;
     font-size: 21px;
-    line-height: 1.14;
+    line-height: 1.5;
     letter-spacing: 1.17px;
   }
 
@@ -1075,7 +1078,7 @@ a:hover,
     min-width: 300px;
     max-width: 360px;
     width: 100%;
-    padding: 16px 6px 16px 6px;
+    padding: 15px 0px;
     border-bottom: 2px #000000 solid;
     margin-bottom: 7px;
   }
@@ -1087,7 +1090,7 @@ a:hover,
     max-width: 720px;
     width: 100%;
     height: 150px;
-    padding: 16px 6px 16px 6px;
+    padding: 30px 0px;
     border-bottom: 2px #000000 solid;
     margin-bottom: 7px;
   }
@@ -1365,7 +1368,7 @@ a:hover,
     margin: 12px auto 0px auto;
     text-align: center;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 600;
     line-height: 1.5;
     letter-spacing: 0.89px;
   }
@@ -1399,7 +1402,6 @@ a:hover,
   #section3 .section3-desktop .button-viewAll {
     width: 220px;
     height: 50px;
-    margin-left: 20px;
     padding: 5px 12px 5px 24px;
     border: solid 1px #000000;
   }
@@ -1517,7 +1519,6 @@ a:hover,
 
   #section4 .contactInfo {
     padding: 0px;
-    margin-top: 47px;
     font-size: 21px;
     line-height: 1.14;
     letter-spacing: 1.17px;
