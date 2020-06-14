@@ -128,9 +128,10 @@ a:hover,
     padding-bottom: 0px;
   }
 
-  #header .header-logo {
-    width: 75px;
-    height: 36px;
+  .header-logo {
+    width: 60px;
+    height: 25px;
+    margin-bottom: 10px;
   }
 
   #header .header-logo .mobileTablet {
@@ -416,7 +417,7 @@ a:hover,
   }
 
   .team-intro-hover {
-    height: 300px;
+    height: 100%;
     background-color: rgba(131, 9, 49, 0.65);
   }
 
@@ -427,6 +428,7 @@ a:hover,
   }
 
   #section2 .title {
+    margin-top: 40px;
     font-family: Montserrat;
     font-size: 36px;
     font-weight: 900;
@@ -441,7 +443,7 @@ a:hover,
     margin-top: 40px;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 31px;
+    padding-left: 25px;
     padding-right: 19px;
     text-align: left;
     position: relative;
@@ -467,6 +469,11 @@ a:hover,
     width: 100%;
   }
 
+  #section3 .user-name,
+  #section3 .user-email {
+    margin-bottom: 40px;
+  }
+
   #section3 .form-placeholder {
     width: 53px;
     height: 100%;
@@ -485,7 +492,7 @@ a:hover,
     min-width: 265px;
     max-width: 375px;
     width: 100%;
-    padding: 20px 0px 40px 0px;
+    padding: 20px 0px;
     border-bottom: 2px #000000 solid;
     margin-bottom: 7px;
   }
@@ -497,7 +504,7 @@ a:hover,
     max-width: 375px;
     width: 100%;
     height: 200px;
-    padding: 20px 0px 40px 0px;
+    padding: 20px 0px;
     border-bottom: 2px #000000 solid;
     margin-bottom: 7px;
   }
@@ -705,7 +712,7 @@ a:hover,
     max-width: 690px;
     width: 100%;
     padding: 50px 72px 50px 67px;
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
@@ -861,7 +868,7 @@ a:hover,
   }
 
   .team-intro-hover {
-    height: 300px;
+    height: 100%;
     background-color: rgba(131, 9, 49, 0.65);
   }
 
@@ -1311,7 +1318,7 @@ a:hover,
 
   .team-intro-hover {
     background-color: rgba(131, 9, 49, 0.65);
-    height: 211px;
+    height: 100%;
   }
 
   /* Desktop Section 2 */

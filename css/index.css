@@ -181,8 +181,9 @@ a:hover,
   }
 
   .header-logo {
-    width: 75px;
-    height: 36px;
+    width: 60px;
+    height: 25px;
+    margin-bottom: 10px;
   }
 
   #header .header-content {
@@ -276,7 +277,6 @@ a:hover,
     width: 425px;
     margin: 0px auto;
     margin-top: 244px;
-
   }
 
   .sideMenu-mobile .contactInfo .contactText {
@@ -561,10 +561,16 @@ a:hover,
     width: 100%;
   }
 
+  #section4 .user-name,
+  #section4 .user-email {
+    margin-bottom: 40px;
+  }
+
   #section4 .form-placeholder {
     width: 53px;
     height: 100%;
     font-family: Montserrat;
+    color: #CDCDCD;
     font-size: 16px;
     font-weight: 500;
     font-stretch: normal;
@@ -579,7 +585,7 @@ a:hover,
     min-width: 265px;
     max-width: 375px;
     width: 100%;
-    padding: 16px 6px 16px 6px;
+    padding: 20px 0px;
     border-bottom: 2px #000000 solid;
     margin-bottom: 7px;
   }
@@ -591,7 +597,7 @@ a:hover,
     max-width: 375px;
     width: 100%;
     height: 200px;
-    padding: 16px 6px 16px 6px;
+    padding: 20px 0px;
     border-bottom: 2px #000000 solid;
     margin-bottom: 7px;
   }
@@ -674,8 +680,6 @@ a:hover,
 
   #header #my-player {
     min-width: 768px;
-    width: 100%;
-    min-height: 400px;
     width: 100%;
   }
 
@@ -902,19 +906,19 @@ a:hover,
 
   #section3 .section3-mobileTablet .header {
     width: 100%;
-    padding: 0px 32px 0px 56px;
+    padding: 0px 32px 0px 80px;
   }
 
   #section3 .section3-mobileTablet .title {
     display: inline-block;
-    width: 430px;
+    width: 420px;
     margin-bottom: 40px;
   }
 
   #section3 .section3-mobileTablet .title>h1 {
     height: 40px;
     font-size: 36px;
-    font-weight: 500 !important;
+    font-weight: 900 !important;
     line-height: 1.11;
     letter-spacing: 2px;
   }
@@ -1051,6 +1055,7 @@ a:hover,
     width: 340px;
     margin-bottom: 65px;
     font-size: 21px;
+    font-weight: 300;
     line-height: 1.5;
     letter-spacing: 1.17px;
   }
@@ -1064,6 +1069,7 @@ a:hover,
     width: 53px;
     height: 100%;
     font-family: Montserrat;
+    color: #CDCDCD;
     font-size: 16px;
     font-weight: 500;
     font-stretch: normal;
@@ -1177,8 +1183,6 @@ a:hover,
   #header #my-player {
     min-width: 1024px;
     width: 100%;
-    min-height: 550px;
-    height: 100%;
   }
 
   #header .navbar {
@@ -1535,6 +1539,7 @@ a:hover,
     width: 53px;
     height: 100%;
     font-family: Montserrat;
+    color: #CDCDCD;
     font-size: 16px;
     font-weight: 500;
     font-stretch: normal;
