@@ -91,6 +91,10 @@ a:hover,
   color: #000000;
 }
 
+#section4 .submit-button:hover {
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
 /* Mobile */
 @media screen and (max-width: 767.98px) {
 
@@ -472,7 +476,7 @@ a:hover,
   @keyframes myMoveIn {
     from {
       opacity: 0;
-      transform: translate3d(0, 25%, 0);
+      transform: translate3d(0, 1%, 0);
     }
 
     to {
@@ -490,7 +494,7 @@ a:hover,
   @keyframes myMoveOut {
     from {
       opacity: 0;
-      transform: translate3d(0, 25%, 0);
+      transform: translate3d(0, 5%, 0);
     }
 
     to {
@@ -972,7 +976,7 @@ a:hover,
   @keyframes myMoveIn {
     from {
       opacity: 0;
-      transform: translate3d(0, 25%, 0);
+      transform: translate3d(0, 1%, 0);
     }
 
     to {
@@ -990,7 +994,7 @@ a:hover,
   @keyframes myMoveOut {
     from {
       opacity: 0;
-      transform: translate3d(0, 25%, 0);
+      transform: translate3d(0, 5%, 0);
     }
 
     to {
@@ -1446,7 +1450,7 @@ a:hover,
   @keyframes myMoveIn {
     from {
       opacity: 0;
-      transform: translate3d(0, 25%, 0);
+      transform: translate3d(0, 1%, 0);
     }
 
     to {
@@ -1464,7 +1468,7 @@ a:hover,
   @keyframes myMoveOut {
     from {
       opacity: 0;
-      transform: translate3d(0, 25%, 0);
+      transform: translate3d(0, 5%, 0);
     }
 
     to {
