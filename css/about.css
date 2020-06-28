@@ -38,6 +38,17 @@ a:hover,
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
+#section3 .form-hint {
+  font-family: PingFangTC;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 0.67px;
+  color: #d0021b;
+}
+
 /* Mobile */
 @media screen and (max-width: 767.98px) {
 
@@ -545,7 +556,7 @@ a:hover,
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #df732b;
+    color: #094b83;
   }
 
   #section3 .backButton {
@@ -924,6 +935,10 @@ a:hover,
     width: 100%;
   }
 
+  #section3 .form-section2 {
+    margin-top: 26px;
+  }
+
   #section3 .form-placeholder {
     width: 53px;
     height: 100%;
@@ -993,7 +1008,7 @@ a:hover,
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #df732b;
+    color: #094b83;
   }
 
   #section3 .backButton {
@@ -1371,6 +1386,10 @@ a:hover,
     width: 100%;
   }
 
+  #section3 .form-section2 {
+    margin-top: 26px;
+  }
+
   #section3 .form-placeholder {
     width: 53px;
     height: 100%;
@@ -1440,7 +1459,7 @@ a:hover,
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #df732b;
+    color: #094b83;
   }
 
   #section3 .backButton {

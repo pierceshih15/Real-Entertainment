@@ -15,6 +15,13 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    
+    <!-- font awesome CSS -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"
+    ></script>
+
     <!-- Animate -->
     <link
       rel="stylesheet"
@@ -444,7 +451,12 @@
                 name="name"
                 class="form-input-style form-placeholder"
                 placeholder="Name"
+                onblur="checkName(this.value)"
               />
+              <div class="form-hint name-message d-none">
+                <i class="far fa-times-circle"></i>
+                <span class="pl-2">This field is required!</span>
+              </div>
             </div>
             <div class="user-email col-md-6 col-lg-6">
               <input
@@ -453,10 +465,15 @@
                 name="email"
                 class="form-input-style form-placeholder"
                 placeholder="Email"
+                onblur="checkEmail(this.value)"
               />
+              <div class="form-hint email-message d-none">
+                <i class="far fa-times-circle"></i>
+                <span class="pl-2">This field is required!</span>
+              </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row form-section2">
             <div class="user-message col-md-12 col-lg-12">
               <textarea
                 name="textarea"
@@ -464,7 +481,12 @@
                 name="textarea"
                 class="form-textarea-style form-placeholder"
                 placeholder="Message"
+                onblur="checkTextarea(this.value)"
               ></textarea>
+              <div class="form-hint textarea-message d-none">
+                <i class="far fa-times-circle"></i>
+                <span class="pl-2">This field is required!</span>
+              </div>
             </div>
           </div>
           <div class="row">

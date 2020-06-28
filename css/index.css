@@ -82,6 +82,8 @@ a:hover,
   height: 16.1px;
 }
 
+
+
 #section4 .contactTitle {
   font-weight: 900;
   color: #000000;
@@ -93,6 +95,17 @@ a:hover,
 
 #section4 .submit-button:hover {
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+#section4 .form-hint {
+  font-family: PingFangTC;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 0.67px;
+  color: #d0021b;
 }
 
 /* Mobile */
@@ -638,7 +651,7 @@ a:hover,
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #df732b;
+    color: #094b83;
   }
 
   #section4 .backButton {
@@ -1069,6 +1082,10 @@ a:hover,
     width: 100%;
   }
 
+  #section4 .form-section2 {
+    margin-top: 26px;
+  }
+
   #section4 .form-placeholder {
     width: 53px;
     height: 100%;
@@ -1139,7 +1156,7 @@ a:hover,
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #df732b;
+    color: #094b83;
   }
 
   #section4 .backButton {
@@ -1539,6 +1556,10 @@ a:hover,
     width: 100%;
   }
 
+  #section4 .form-section2 {
+    margin-top: 26px;
+  }
+
   #section4 .form-placeholder {
     width: 53px;
     height: 100%;
@@ -1609,7 +1630,7 @@ a:hover,
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #df732b;
+    color: #094b83;
   }
 
   #section4 .backButton {
