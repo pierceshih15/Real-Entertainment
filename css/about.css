@@ -21,6 +21,22 @@ a:hover,
   font-style: normal;
 }
 
+#section1 .teams .photo-1 {
+  background-image: url(./assets/team/James.JPG);
+}
+
+#section1 .teams .photo-2 {
+  background-image: url(./assets/team/Libby.PNG);
+}
+
+#section1 .teams .photo-3 {
+  background-image: url(./assets/team/Awill.jpg);
+}
+
+#section1 .teams .photo-4 {
+  background-image: url(./assets/team/Sofa.jpg);
+}
+
 #section2 .header>a {
   color: #000000 !important;
 }
@@ -298,6 +314,8 @@ a:hover,
 
   #section1 .mobileTablet {
     display: block;
+    max-width: 425px;
+    margin: 0 auto;
   }
 
   #section1 .desktop {
@@ -352,7 +370,6 @@ a:hover,
   }
 
   #section1 .teams .team-photo {
-    background-image: url(./assets/sample3.png);
     background-size: cover;
     background-position: center;
     min-width: 375px;
@@ -747,6 +764,8 @@ a:hover,
 
   #section1 .mobileTablet {
     display: block;
+    max-width: 768px;
+    margin: 0 auto;
   }
 
   #section1 .desktop {
@@ -803,9 +822,8 @@ a:hover,
   }
 
   #section1 .teams .team-photo {
-    background-image: url(./assets/sample3.png);
-    /* background-size: cover;
-    background-position: center; */
+    background-size: cover;
+    background-position: center;
     min-width: 380px;
     width: 100%;
     min-height: 300px;
@@ -1202,6 +1220,8 @@ a:hover,
 
   #section1 .desktop {
     display: block;
+    max-width: 1024px;
+    margin: 0 auto;
   }
 
   #section1 .mobileTablet {
@@ -1216,8 +1236,8 @@ a:hover,
   }
 
   #section1 .teams .team-photo {
-    background-image: url(./assets/sample3.png);
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-width: 340px;
     width: 100%;
     height: 215px;

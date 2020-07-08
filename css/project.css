@@ -20,6 +20,30 @@ a:hover,
   font-style: normal;
 }
 
+#section1 .projects .photo-1 {
+  background-image: url(./assets/projects/1.\ Showreel.png);
+}
+
+#section1 .projects .photo-2 {
+  background-image: url(./assets/projects/2.\ Syoss\ Commercial.png);
+}
+
+#section1 .projects .photo-3 {
+  background-image: url(./assets/projects/3.\ Golden\ Sound.png);
+}
+
+#section1 .projects .photo-4 {
+  background-image: url(./assets/projects/5.\ Sangean\ WR-7\ .png);
+}
+
+#section1 .projects .photo-5 {
+  background-image: url(./assets/projects/4.\ SeesCandies.png);
+}
+
+#section1 .projects .photo-6 {
+  background-image: url(./assets/projects/6.\ Heart\ -\ MV.png);
+}
+
 #section2 .contactTitle {
   font-weight: 900;
   color: #000000;
@@ -252,7 +276,6 @@ a:hover,
   }
 
   #section1 .projects .project-photo {
-    background-image: url(./assets/sample3.png);
     background-size: cover;
     background-position: center;
     min-width: 375px;
@@ -588,7 +611,6 @@ a:hover,
   }
 
   #section1 .projects .project-photo {
-    background-image: url(./assets/sample3.png);
     background-size: cover;
     background-position: center;
     min-width: 768px;
@@ -916,7 +938,6 @@ a:hover,
   }
 
   #section1 .projects .project-photo {
-    background-image: url(./assets/sample3.png);
     background-size: cover;
     background-position: center;
     min-width: 330px;

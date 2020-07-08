@@ -76,13 +76,43 @@ a:hover,
   height: 16.1px;
 }
 
+#section2 .team-mb .photo-1 {
+  background-image: url(./assets/team/James.JPG);
+}
+
+#section2 .team-mb .photo-2 {
+  background-image: url(./assets/team/Libby.PNG);
+}
+
+#section2 .team-mb .photo-3 {
+  background-image: url(./assets/team/Awill.jpg);
+}
+
+#section2 .team-mb .photo-4 {
+  background-image: url(./assets/team/Sofa.jpg);
+}
+
+#section3 .projects .photo-1 {
+  background-image: url(./assets/projects/1.\ Showreel.png);
+}
+
+#section3 .projects .photo-2 {
+  background-image: url(./assets/projects/2.\ Syoss\ Commercial.png);
+}
+
+#section3 .projects .photo-3 {
+  background-image: url(./assets/projects/3.\ Golden\ Sound.png);
+}
+
+#section3 .projects .photo-4 {
+  background-image: url(./assets/projects/5.\ Sangean\ WR-7\ .png);
+}
+
 #section3 .button-viewAll .arrow-right-icon {
   padding-bottom: 5px;
   width: 68.4px;
   height: 16.1px;
 }
-
-
 
 #section4 .contactTitle {
   font-weight: 900;
@@ -366,18 +396,18 @@ a:hover,
   }
 
   #section2 .section2-mobile .section2-content {
-    /* min-width: 375px;
+    min-width: 375px;
     width: 100%;
-    padding: 0px; */
-    width: 375px;
-    width: 100%;
-    max-width: 767.98px;
     padding: 0px;
     margin: 0px auto;
   }
 
+  #section2 .team-mb {
+    width: 160px;
+    height: 100%;
+  }
+
   #section2 .team-mb-photo {
-    background-image: url(./assets/sample2.png);
     background-size: cover;
     background-position: center;
     min-width: 160px;
@@ -466,7 +496,6 @@ a:hover,
   }
 
   #section3 .projects .project-photo {
-    background-image: url(./assets/sample3.png);
     background-size: cover;
     background-position: center;
     min-width: 375px;
@@ -873,7 +902,6 @@ a:hover,
   }
 
   #section2 .team-mb-photo {
-    background-image: url(./assets/sample2.png);
     background-size: cover;
     background-position: center;
     width: 200px;
@@ -966,7 +994,6 @@ a:hover,
   }
 
   #section3 .projects .project-photo {
-    background-image: url(./assets/sample3.png);
     background-size: cover;
     background-position: center;
     min-width: 768px;
@@ -1359,7 +1386,6 @@ a:hover,
   }
 
   #section2 .team-mb-photo {
-    background-image: url(./assets/sample2.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -1444,7 +1470,6 @@ a:hover,
   }
 
   #section3 .projects .project-photo {
-    background-image: url(./assets/sample3.png);
     background-size: cover;
     background-position: center;
     min-width: 328px;
